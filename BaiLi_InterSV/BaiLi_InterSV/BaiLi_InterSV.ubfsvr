@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component id="c3960c20-4c47-4a6d-8332-5a006de9cc26" name="UFIDA.U9.Cust.ZX.BaiLi_InterSV" displayName="BaiLi_InterSV" description="" help="" type="SV" assemblyName="UFIDA.U9.Cust.ZX.BaiLi_InterSV">
+  <Namespace id="8cbc575d-7eed-4519-8f2d-53455548ed78" name="UFIDA.U9.Cust.ZX.BaiLi_InterSV" displayName="BaiLi_InterSV" description="" help="">
+    <Diagram name="BaiLi_InterSV" displayName="BaiLi_InterSV" />
+  </Namespace>
+</Component>
