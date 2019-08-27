@@ -4,5 +4,5 @@
   <ItemGroup>
     <Item id="c8dc6ad7-7a01-46ef-b4b8-3c403e6e6c69" include="BaiLi_InterSV\BaiLi_InterSV.ubfserproj" />
   </ItemGroup>
-  <ServiceGroupInfo id="4d931cbb-2c9f-4def-8064-135728d8bfac" name="BaiLi_InterSV" displayName="BaiLi_InterSV" description="" help="" fullPath="E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\BaiLi_InterSV\BaiLi_InterSV.ubfsln" applicationID="" />
+  <ServiceGroupInfo id="4d931cbb-2c9f-4def-8064-135728d8bfac" name="BaiLi_InterSV" displayName="BaiLi_InterSV" description="" help="" fullPath="E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\BaiLi_InterSV\BaiLi_InterSV.sg" applicationID="" />
 </Solution>

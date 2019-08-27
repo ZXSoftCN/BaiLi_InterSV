@@ -1,0 +1,11 @@
+﻿<BOMInfo><!--提交BOM新增、修改数据集-->
+  <BomMasters>
+  <BOMMaster ItemMasterCode="物料编码" ItemVersionCode="母件料品版本号" BOMVersionCode="BOM版本号" BOMType="BOM种类：自制/委外" Explain="描述备注"><!--BOM母件信息-->
+    <Components>
+    <BOMComponent ItemCode="子件物料编码" ItemVersionCode="物料版本号" IssueUomCode="单位" UsageQty="用量" Scrap="损耗率" ParentQty="母件底数：一般是1" 
+                  IsPhantomPart="是否虚拟件：true/false" Remark="备注" CompProject="项目编号"></BOMComponent><!--BOM子件信息-->
+    <BOMComponent>其余多个子件</BOMComponent>
+    </Components>
+  </BOMMaster>
+  </BomMasters>
+</BOMInfo>

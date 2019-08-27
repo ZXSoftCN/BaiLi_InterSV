@@ -1,0 +1,7 @@
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\bin\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Deploy.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\bin\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Deploy.pdb
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\obj\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Resource.resources
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\obj\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Deploy.csproj.GenerateResource.Cache
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\obj\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Deploy.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\Deploy\obj\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Deploy.pdb

@@ -1,0 +1,14 @@
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Metadata.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Metadata.pdb
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.MD.Design.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.Sys.Resources.Runtime.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.Sys.Resources.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.Business.MetaDataWrap.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.MD.Runtime.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.Util.DBHelper.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\bin\Debug\UFSoft.UBF.MD.Model.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\obj\Debug\ResourcePackage.BaiLi_InterSV.ubfserproj
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\obj\Debug\ResourcePackage.BaiLi_InterSV.ubfsvr
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\obj\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Metadata.dll
+E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\Code\BaiLiSV\UFIDA.U9.Cust.ZX\obj\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Metadata.pdb

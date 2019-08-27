@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceGroup>
+  <ServiceGroupInfo id="4d931cbb-2c9f-4def-8064-135728d8bfac" name="BaiLi_InterSV" displayName="BaiLi_InterSV" description="" help="" fullPath="E:\MyProject\百利\项目管理\开发代码\BaiLi_InterSV\BaiLi_InterSV\BaiLi_InterSV.sg" applicationID="" />
+  <AssemblyGroup>
+    <Assembly ID="de262073-eb07-4758-a4d7-d883d53570ea" name="UFIDA.U9.Cust.ZX.BaiLiSV" type="SV" path="" />
+  </AssemblyGroup>
+</ServiceGroup>

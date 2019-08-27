@@ -1,0 +1,22 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|1
+UBF_RES_ResourceValue|6|22
+LanguageName, ResourceName, Status, Description, DisplayName, Type, Help, ComponentID, ParentHelpResourceName, ResourceID, ParentResourceName
+
+zh-CN	0f35acfe-4f31-46bc-a21a-f3007377b68a	T		创建料品服务	SvrOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		848c1b11-1fd2-446f-aad8-ea87674c2210	
+zh-CN	9e7d18bc-c480-48e4-9573-b550bb52fbf8	T		创建SO服务	SvrOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		5247c9de-66f7-4d28-8835-b6dc421e689f	
+zh-CN	489d419d-7600-491c-9d13-26bd1e837970	T		创建BOM服务	SvrOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		6aaecba9-6187-4975-9efa-070186d7162e	
+zh-CN	79ed7a70-8d3b-42a6-b2a5-47857ac9c297	T		查询在制MO服务	SvrOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		7cff2d37-0a43-4448-9718-31c132386515	
+zh-CN	31310f21-b606-413b-b2e0-775abd5372e6	T		上下文	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		d1940e95-56cf-4518-b6d8-78567d4067ae	
+zh-CN	9c6faa20-ef50-4fb2-b9c4-cd90495922ed	T		模板料号	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		6db2b975-1a1b-4151-9f65-2560c3761b42	
+zh-CN	526ad4d0-33d2-4625-afc6-c58c762ceed4	T		料品信息	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		28874965-9ef6-4933-967c-573749d39263	
+zh-CN	e8f75652-6d7c-46eb-9b0c-0563948eb81c	T		上下文	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		3b5421d5-8a8e-488f-9f6f-529aafc222e2	
+zh-CN	4d6521de-5acd-45d5-99a3-41708f2b4d15	T		预设单据类型	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		6ab87fb2-4ca2-4a37-af92-c40a83c1f7ee	
+zh-CN	2faa91fc-a5fa-4463-bc29-418fcb6ccbf8	T		单据信息	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		c8307259-221a-494d-b3b1-51f5d0ee0042	
+zh-CN	f5f50dad-29cc-4e05-bc87-3b7ecd3b5d62	T		上下文	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		cdb2aaa0-f054-41d3-897a-7d26e360d6a9	
+zh-CN	7fad9677-ade7-4ff8-9eb3-6587642bf5e8	T		BOM信息	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		e4f9a606-3c21-476e-bdfd-7ec8117f9275	
+zh-CN	530ec90b-f535-4aa5-8b43-6f06d462a5ee	T		BOM查询信息	SvrOperationAttribute		c3960c20-4c47-4a6d-8332-5a006de9cc26		e37a6cd1-be5f-445b-b154-2f92c1b21ab6	
+zh-CN	83a487ec-410c-4e6a-aa2d-3023a30d3f77	T		实现	SvrOperationImplementsOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		dd39a5d3-4adc-40ad-91c3-713ecef810c5	
+zh-CN	57dd9824-d19e-4d25-9bd4-91d4866d0e10	T		实现	SvrOperationImplementsOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		c3537737-34ef-4080-acd7-7e5ee24369cf	
+zh-CN	f769af5f-6523-4f2b-b7be-e11ea708f11d	T		实现	SvrOperationImplementsOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		b0065047-cacf-4aa6-975b-9eff4fc7759d	
+zh-CN	8bdd768e-3f2b-4a97-9eb7-874f33d6addb	T		实现	SvrOperationImplementsOperation		c3960c20-4c47-4a6d-8332-5a006de9cc26		e7849c8c-a79d-41de-b948-b5f7304ec2af	

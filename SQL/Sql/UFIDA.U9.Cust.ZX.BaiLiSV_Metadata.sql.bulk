@@ -1,0 +1,50 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|11
+UBF_MD_IndexIncludeAttribute|36|35
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_StereotypeValue|36|35
+Name, Value, StereotypeUid, StereotypeOwnerUid, ComponentId, StereotypeOrdinal
+Name, StereotypeUid, StereotypeOwnerUid, StereotypeOrdinal
+UBF_MD_Association|36|35
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Parent_Class_ID, Child_Class_ID, Parent_Attribute_ID, Child_Attribute_ID, ParentCardinality, ChildCardinality, Kind, IsCascadeDelete, IsCascadeUpdate, IsEnableCascadeValidation, CascadeDeleteRule, CascadeUpdateRule, IsCreateFK
+
+UBF_MD_EntityIndex|36|35
+ID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, IsUnique, IsCluster, EntityUID, EntityFullName
+
+UBF_MD_Class|36|39
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_ParentClass_ID, MD_Component_ID, Local_Component_ID, ClassType, FullName, IsMain, IsAbstract, Discriminator, InheritanceMapKind, IsModifyControl, HasImpressibleAttribute, IsInCache, DefaultTableName, IsAuthority, IsDefault, IsService, TransactionType, ReturnTypeID, IsExtend, IsQueryDTO, IsPersistence, IsPkClustered,ForOBAImport
+
+UBF_MD_Component|40|40
+Local_ID, Kind, Name, ID, AssemblyName, CreateOp, ModifyTime, Version, ModifyOp, MD_Module_ID, CreateTime
+
+UBF_MD_Import|41|40
+Source_ID, Imported_ID
+
+UBF_MD_IndexAttribute|41|40
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_Project|41|41
+Name, ID, AssemblyName, CreateOp, ComponentType, ModifyTime, ModifyOp, CreateTime
+
+UBF_MD_Attribute|42|50
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_Class_ID, Local_Class_ID, DataTypeID, GroupName, IsCollection, DefaultValue, Length, Precision, Sequence, Scale, MaxValue, MinValue, IsKey, IsNullable, IsReadOnly, Visibility, IsCalculation, IsGlobalization, IsSystem, IsBusinessKey, IsQueryAttribute, IsForAsso, GroupID, IsModifyControl, IsDynamic, IsImpressible, IsInCache, IsKeySerializable, IsColumnDefine, IsFilterDefine, IsSortDefine, IsDefaultColumn, IsEntityData, DefaultColumnName, DataTypeFlag,ForOBAImport
+
+UBF_MD_Stereotype|51|50
+ID, Name, Template, Classify, OwnerId, OwnerType, ComponentId, Ordinal
+ID, OwnerId
+0f35acfe-4f31-46bc-a21a-f3007377b68a	CreateItemMasterSV	Administrator	2019-08-26T10:10:39	Administrator	2019-08-26T15:04:57	@SNIndex+1	00000000-0000-0000-0000-000000000000	c3960c20-4c47-4a6d-8332-5a006de9cc26	@SNIndex+0	7	UFIDA.U9.Cust.ZX.BaiLiSV.CreateItemMasterSV			UFIDA.UBF.MD.Business.Service						1	0	1	2	3d174255-fd12-47f7-8844-3b5e4fae9e8c					
+9e7d18bc-c480-48e4-9573-b550bb52fbf8	CreateSOSV	Administrator	2019-08-26T10:10:39	Administrator	2019-08-26T15:04:57	@SNIndex+5	00000000-0000-0000-0000-000000000000	c3960c20-4c47-4a6d-8332-5a006de9cc26	@SNIndex+0	7	UFIDA.U9.Cust.ZX.BaiLiSV.CreateSOSV			UFIDA.UBF.MD.Business.Service						1	0	1	2	3d174255-fd12-47f7-8844-3b5e4fae9e8c					
+489d419d-7600-491c-9d13-26bd1e837970	CreateBOMSV	Administrator	2019-08-26T10:10:39	Administrator	2019-08-26T15:04:57	@SNIndex+9	00000000-0000-0000-0000-000000000000	c3960c20-4c47-4a6d-8332-5a006de9cc26	@SNIndex+0	7	UFIDA.U9.Cust.ZX.BaiLiSV.CreateBOMSV			UFIDA.UBF.MD.Business.Service						1	0	1	2	3d174255-fd12-47f7-8844-3b5e4fae9e8c					
+79ed7a70-8d3b-42a6-b2a5-47857ac9c297	QueryMOSV	Administrator	2019-08-26T10:10:39	Administrator	2019-08-26T15:04:57	@SNIndex+12	00000000-0000-0000-0000-000000000000	c3960c20-4c47-4a6d-8332-5a006de9cc26	@SNIndex+0	7	UFIDA.U9.Cust.ZX.BaiLiSV.QueryMOSV			UFIDA.UBF.MD.Business.Service						1	0	1	2	3d174255-fd12-47f7-8844-3b5e4fae9e8c					
+@SNIndex+0	SV	UFIDA.U9.Cust.ZX.BaiLiSV	c3960c20-4c47-4a6d-8332-5a006de9cc26	UFIDA.U9.Cust.ZX.BaiLiSV	Administrator	2019-08-26T10:10:39			de262073-eb07-4758-a4d7-d883d53570ea	2019-08-26T10:10:39
+UFIDA.U9.Cust.ZX.BaiLiSV	de262073-eb07-4758-a4d7-d883d53570ea	UFIDA.U9.Cust.ZX.BaiLiSV	Administrator	SV	2019-08-26T10:10:33		2019-08-26T10:10:33
+31310f21-b606-413b-b2e0-775abd5372e6	ContextInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+2	0f35acfe-4f31-46bc-a21a-f3007377b68a	@SNIndex+1	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		200	5	0	0			0	1	0	0	0	0	0	0	1	1	c0ff9618-640b-4869-8e05-a7a019b3fc0d	0	0	0	0	0	1	1	1	1	1		0	0
+9c6faa20-ef50-4fb2-b9c4-cd90495922ed	ItemModule	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+3	0f35acfe-4f31-46bc-a21a-f3007377b68a	@SNIndex+1	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		200	5	1	0			0	1	0	0	0	0	0	0	1	1	c0ff9618-640b-4869-8e05-a7a019b3fc0d	0	0	0	0	0	1	1	1	1	1		0	0
+526ad4d0-33d2-4625-afc6-c58c762ceed4	ItemInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+4	0f35acfe-4f31-46bc-a21a-f3007377b68a	@SNIndex+1	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		20000	5	2	0			0	1	0	0	0	0	0	0	1	1	c0ff9618-640b-4869-8e05-a7a019b3fc0d	0	0	0	0	0	1	1	1	1	1		0	0
+e8f75652-6d7c-46eb-9b0c-0563948eb81c	ContextInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+6	9e7d18bc-c480-48e4-9573-b550bb52fbf8	@SNIndex+5	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		200	5	0	0			0	1	0	0	0	0	0	0	1	1	1a02b9d9-f133-42e0-b7a7-543032782566	0	0	0	0	0	1	1	1	1	1		0	0
+4d6521de-5acd-45d5-99a3-41708f2b4d15	DocTypeCode	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+7	9e7d18bc-c480-48e4-9573-b550bb52fbf8	@SNIndex+5	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		50	5	1	0			0	1	0	0	0	0	0	0	1	1	1a02b9d9-f133-42e0-b7a7-543032782566	0	0	0	0	0	1	1	1	1	1		0	0
+2faa91fc-a5fa-4463-bc29-418fcb6ccbf8	DocInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+8	9e7d18bc-c480-48e4-9573-b550bb52fbf8	@SNIndex+5	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		20000	5	2	0			0	1	0	0	0	0	0	0	1	1	1a02b9d9-f133-42e0-b7a7-543032782566	0	0	0	0	0	1	1	1	1	1		0	0
+f5f50dad-29cc-4e05-bc87-3b7ecd3b5d62	ContextInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+10	489d419d-7600-491c-9d13-26bd1e837970	@SNIndex+9	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		200	5	0	0			0	1	0	0	0	0	0	0	1	1	8c7d1731-93f4-40d1-ab67-24246d85ba58	0	0	0	0	0	1	1	1	1	1		0	0
+7fad9677-ade7-4ff8-9eb3-6587642bf5e8	BOMInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+11	489d419d-7600-491c-9d13-26bd1e837970	@SNIndex+9	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		20000	5	1	0			0	1	0	0	0	0	0	0	1	1	8c7d1731-93f4-40d1-ab67-24246d85ba58	0	0	0	0	0	1	1	1	1	1		0	0
+530ec90b-f535-4aa5-8b43-6f06d462a5ee	BOMQueryInfo	Administrator	2019-08-26T10:10:39		2019-08-26T10:10:39	@SNIndex+13	79ed7a70-8d3b-42a6-b2a5-47857ac9c297	@SNIndex+12	3d174255-fd12-47f7-8844-3b5e4fae9e8c	Misc	0		20000	5	0	0			0	1	0	0	0	0	0	0	1	1	eae42107-aa40-4c06-998d-bdb8f001e0cf	0	0	0	0	0	1	1	1	1	1		0	0

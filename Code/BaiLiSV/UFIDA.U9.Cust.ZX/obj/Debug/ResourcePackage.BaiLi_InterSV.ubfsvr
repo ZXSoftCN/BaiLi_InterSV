@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component id="c3960c20-4c47-4a6d-8332-5a006de9cc26" name="UFIDA.U9.Cust.ZX.BaiLiSV" displayName="BaiLiSV" description="" help="" type="SV" assemblyName="UFIDA.U9.Cust.ZX.BaiLiSV">
+  <Namespace id="8cbc575d-7eed-4519-8f2d-53455548ed78" name="UFIDA.U9.Cust.ZX.BaiLiSV" displayName="BaiLiSV" description="" help="">
+    <Operation id="0f35acfe-4f31-46bc-a21a-f3007377b68a" name="CreateItemMasterSV" displayName="创建料品服务" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="True" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="c0ff9618-640b-4869-8e05-a7a019b3fc0d" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="31310f21-b606-413b-b2e0-775abd5372e6" name="ContextInfo" displayName="上下文" description="" help="创建料品服务.Misc.上下文" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="200" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="9c6faa20-ef50-4fb2-b9c4-cd90495922ed" name="ItemModule" displayName="模板料号" description="" help="创建料品服务.Misc.模板料号" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="200" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="526ad4d0-33d2-4625-afc6-c58c762ceed4" name="ItemInfo" displayName="料品信息" description="" help="创建料品服务.Misc.料品信息" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="20000" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="2" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="83a487ec-410c-4e6a-aa2d-3023a30d3f77" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="9e7d18bc-c480-48e4-9573-b550bb52fbf8" name="CreateSOSV" displayName="创建SO服务" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="True" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="1a02b9d9-f133-42e0-b7a7-543032782566" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="e8f75652-6d7c-46eb-9b0c-0563948eb81c" name="ContextInfo" displayName="上下文" description="" help="创建SO服务.Misc.上下文" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="200" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="4d6521de-5acd-45d5-99a3-41708f2b4d15" name="DocTypeCode" displayName="预设单据类型" description="" help="创建SO服务.Misc.预设单据类型" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="2faa91fc-a5fa-4463-bc29-418fcb6ccbf8" name="DocInfo" displayName="单据信息" description="" help="创建SO服务.Misc.单据信息" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="20000" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="2" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="57dd9824-d19e-4d25-9bd4-91d4866d0e10" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="489d419d-7600-491c-9d13-26bd1e837970" name="CreateBOMSV" displayName="创建BOM服务" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="True" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="8c7d1731-93f4-40d1-ab67-24246d85ba58" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="f5f50dad-29cc-4e05-bc87-3b7ecd3b5d62" name="ContextInfo" displayName="上下文" description="" help="创建BOM服务.Misc.上下文" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="200" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="7fad9677-ade7-4ff8-9eb3-6587642bf5e8" name="BOMInfo" displayName="BOM信息" description="" help="创建BOM服务.Misc.BOM信息" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="20000" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="f769af5f-6523-4f2b-b7be-e11ea708f11d" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="79ed7a70-8d3b-42a6-b2a5-47857ac9c297" name="QueryMOSV" displayName="查询在制MO服务" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="True" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="eae42107-aa40-4c06-998d-bdb8f001e0cf" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="530ec90b-f535-4aa5-8b43-6f06d462a5ee" name="BOMQueryInfo" displayName="BOM查询信息" description="" help="查询在制MO服务.Misc.BOM查询信息" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="20000" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="8bdd768e-3f2b-4a97-9eb7-874f33d6addb" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Diagram id="00000000-0000-0000-0000-000000000000" name="BaiLi_InterSV" displayName="BaiLi_InterSV">
+      <Class Editable="True" ID="2a398975-31e1-4596-9e32-06497cf93fba" Type="Service" ADID="0f35acfe-4f31-46bc-a21a-f3007377b68a">
+        <Location X="195" Y="87" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="8eeee83d-0868-4cdc-88f7-dea4d5516ba6" Type="Service" ADID="9e7d18bc-c480-48e4-9573-b550bb52fbf8">
+        <Location X="347" Y="87" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="db11b80d-1255-4920-9c99-2c0079a51448" Type="Service" ADID="489d419d-7600-491c-9d13-26bd1e837970">
+        <Location X="196" Y="161" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="d447537b-d139-4416-b162-1c41a1b73463" Type="Service" ADID="79ed7a70-8d3b-42a6-b2a5-47857ac9c297">
+        <Location X="344" Y="161" />
+        <Size width="120" height="58" />
+      </Class>
+    </Diagram>
+  </Namespace>
+</Component>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="de262073-eb07-4758-a4d7-d883d53570ea" name="UFIDA.U9.Cust.ZX.BaiLiSV" displayName="BaiLiSV" description="" help="" type="SV" assemblyName="UFIDA.U9.Cust.ZX.BaiLiSV" mapProject="" resourceName="" projectVersion="V21">
+  <SourceControl />
+  <ItemGroup>
+    <Item id="0e595d46-9594-4e18-acbb-158659dde82e" name="BaiLi_InterSV.ubfsvr" displayName="BaiLi_InterSV.ubfsvr" description="" help="" include="BaiLi_InterSV.ubfsvr" type="BE" />
+  </ItemGroup>
+</Project>

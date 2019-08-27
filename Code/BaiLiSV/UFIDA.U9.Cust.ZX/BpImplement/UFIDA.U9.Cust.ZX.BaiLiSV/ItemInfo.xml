@@ -1,0 +1,5 @@
+﻿<ItemInfo>
+  <ItemMasters>
+    <ItemMaster UpdateFlag="Add/Update" Effective="true/false" ItemCode="01010501-007" ItemName="物料名称" ItemForm="物料形态" VersionCode="版本号" Specs="规格" UOMCode="118" ItemFormAttribute="PurchasePart采购件/MakePart制造件/Phantom虚拟" ItemProperty1="扩展属性一" ItemProperty2="扩展属性二" ItemDescSeg5="料品实体扩展字段5" ItemDescSeg6="料品实体扩展字段6"></ItemMaster>
+  </ItemMasters>
+</ItemInfo>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.serviceModel>
+    <services>
+   
+	<service name="UFIDA.U9.Cust.ZX.BaiLiSV.CreateItemMasterSVStub">
+        <endpoint contract="UFIDA.U9.Cust.ZX.BaiLiSV.ICreateItemMasterSV"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.ZX.BaiLiSV.CreateSOSVStub">
+        <endpoint contract="UFIDA.U9.Cust.ZX.BaiLiSV.ICreateSOSV"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.ZX.BaiLiSV.CreateBOMSVStub">
+        <endpoint contract="UFIDA.U9.Cust.ZX.BaiLiSV.ICreateBOMSV"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.ZX.BaiLiSV.QueryMOSVStub">
+        <endpoint contract="UFIDA.U9.Cust.ZX.BaiLiSV.IQueryMOSV"
+                  binding="basicHttpBinding" />
+
+	</service>
+ 
+    </services>
+</system.serviceModel>
+</configuration>
