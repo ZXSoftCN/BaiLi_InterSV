@@ -49,6 +49,7 @@
         {
             CreateBOMSV bpObj = (CreateBOMSV)obj;
 
+
             StringBuilder strbResult = new StringBuilder();
             #region 基础校验&提前检查
             if (string.IsNullOrEmpty(bpObj.BOMInfo))
@@ -560,7 +561,7 @@
                         continue;
                     }
                 }
-                
+
                 if (!bCompIsExists)
                 {
                     if (dtoMasterDelPart == null)

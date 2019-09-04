@@ -1,0 +1,3176 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.ISV.MFG.MFGSV.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData">
+            <summary>
+            BOM母项DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.#ctor(UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.Int32,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Boolean,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData},System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData},System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.String,System.String,System.Int32,System.String,UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_itemMaster">
+            <summary>
+            料号
+            BOM母项DTO(为创建服务提供).Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_bOMVersionCode">
+            <summary>
+            版本
+            BOM母项DTO(为创建服务提供).Misc.版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_alternateType">
+            <summary>
+            生产目的
+            BOM母项DTO(为创建服务提供).Misc.生产目的
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_lot">
+            <summary>
+            批量
+            BOM母项DTO(为创建服务提供).Misc.批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_productUOM">
+            <summary>
+            生产单位
+            BOM母项DTO(为创建服务提供).Misc.生产单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_project">
+            <summary>
+            项目
+            BOM母项DTO(为创建服务提供).Misc.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_ownerOrg">
+            <summary>
+            货主组织
+            BOM母项DTO(为创建服务提供).Misc.货主组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_productionLine">
+            <summary>
+            生产线
+            BOM母项DTO(为创建服务提供).Misc.生产线
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_effectiveDate">
+            <summary>
+            生效日期
+            BOM母项DTO(为创建服务提供).Misc.生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_disableDate">
+            <summary>
+            失效日期
+            BOM母项DTO(为创建服务提供).Misc.失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_fromQty">
+            <summary>
+            从数量
+            BOM母项DTO(为创建服务提供).Misc.从数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_toQty">
+            <summary>
+            到数量
+            BOM母项DTO(为创建服务提供).Misc.到数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_isPrimaryLot">
+            <summary>
+            是否主批量
+            BOM母项DTO(为创建服务提供).Misc.是否主批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_bOMComponents">
+            <summary>
+            BOM子项DTO集合
+            BOM母项DTO(为创建服务提供).Misc.BOM子项DTO集合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_degreePercents">
+            <summary>
+            多产品产出DTO集合
+            BOM母项DTO(为创建服务提供).Misc.多产品产出DTO集合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_status">
+            <summary>
+            状态
+            BOM母项DTO(为创建服务提供).Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_org">
+            <summary>
+            组织
+            BOM母项DTO(为创建服务提供).Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_bOMSort">
+            <summary>
+            分类
+            BOM母项DTO(为创建服务提供).Misc.分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_projectMapNum">
+            <summary>
+            工程图号
+            BOM母项DTO(为创建服务提供).Misc.工程图号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_explain">
+            <summary>
+            描述
+            BOM母项DTO(为创建服务提供).Misc.描述
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_priceStyle">
+            <summary>
+            定价方式
+            BOM母项DTO(为创建服务提供).Misc.定价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_eCOCode">
+            <summary>
+            变更单号
+            BOM母项DTO(为创建服务提供).Misc.变更单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            BOM母项DTO(为创建服务提供).Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData.m_bOMType">
+            <summary>
+            BOM类型
+            BOM母项DTO(为创建服务提供).Misc.BOM类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData">
+            <summary>
+            BOM子项DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.#ctor(System.Int32,System.String,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Boolean,System.Int32,System.Int32,UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData},System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData},System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData},System.Int32,System.String,System.Decimal,System.Boolean,System.Int32,System.Int32,System.Decimal,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Int32,System.Decimal,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData},System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData,System.Int32,System.Int32,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Decimal,System.Boolean,System.Boolean,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Decimal,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.String,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.String,System.Decimal,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_sequence">
+            <summary>
+            子项项次
+            BOM子项DTO(为创建服务提供).Misc.子项项次
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_operationNum">
+            <summary>
+            工序号
+            BOM子项DTO(为创建服务提供).Misc.工序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_itemMaster">
+            <summary>
+            物料
+            BOM子项DTO(为创建服务提供).Misc.物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_usageQtyType">
+            <summary>
+            用量类型
+            BOM子项DTO(为创建服务提供).Misc.用量类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_usageQty">
+            <summary>
+            用量
+            BOM子项DTO(为创建服务提供).Misc.用量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_issueUOM">
+            <summary>
+            发料单位
+            BOM子项DTO(为创建服务提供).Misc.发料单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_planPercent">
+            <summary>
+            计划百分比
+            BOM子项DTO(为创建服务提供).Misc.计划百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isCharge">
+            <summary>
+            是否计算成本
+            BOM子项DTO(为创建服务提供).Misc.是否计算成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_fromQty">
+            <summary>
+            从数量
+            BOM子项DTO(为创建服务提供).Misc.从数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_toQty">
+            <summary>
+            到数量
+            BOM子项DTO(为创建服务提供).Misc.到数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_bOMMasterDTO4CreateSv">
+            <summary>
+            BOM母项DTO
+            BOM子项DTO(为创建服务提供).Misc.BOM母项DTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_bOMCompSuppliers">
+            <summary>
+            子项厂牌DTO(为创建服务提供)
+            BOM子项DTO(为创建服务提供).Misc.子项厂牌DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_bOMCompPositions">
+            <summary>
+            子项插件位置DTO(为创建服务提供)
+            BOM子项DTO(为创建服务提供).Misc.子项插件位置DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_bOMComponentLots">
+            <summary>
+            批量用量DTO(为创建服务提供)
+            BOM子项DTO(为创建服务提供).Misc.批量用量DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_componentType">
+            <summary>
+            子项类型
+            BOM子项DTO(为创建服务提供).Misc.子项类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_itemVersionCode">
+            <summary>
+            版本号
+            BOM子项DTO(为创建服务提供).Misc.版本号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_scrap">
+            <summary>
+            变动损耗
+            BOM子项DTO(为创建服务提供).Misc.变动损耗
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isEffective">
+            <summary>
+            生效
+            BOM子项DTO(为创建服务提供).Misc.生效
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_substituteStyle">
+            <summary>
+            替代控制方式
+            BOM子项DTO(为创建服务提供).Misc.替代控制方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_subSeq">
+            <summary>
+            替代顺序
+            BOM子项DTO(为创建服务提供).Misc.替代顺序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_subPercent">
+            <summary>
+            替代比例
+            BOM子项DTO(为创建服务提供).Misc.替代比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_bOMCompSubstituteDTO4CreateSv">
+            <summary>
+            替代件DTO(为创建服务提供)
+            BOM子项DTO(为创建服务提供).Misc.替代件DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg1">
+            <summary>
+            公共段1
+            BOM子项DTO(为创建服务提供).Misc.公共段1
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg2">
+            <summary>
+            公共段2
+            BOM子项DTO(为创建服务提供).Misc.公共段2
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg3">
+            <summary>
+            公共段3
+            BOM子项DTO(为创建服务提供).Misc.公共段3
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg4">
+            <summary>
+            公共段4
+            BOM子项DTO(为创建服务提供).Misc.公共段4
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg5">
+            <summary>
+            公共段5
+            BOM子项DTO(为创建服务提供).Misc.公共段5
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg6">
+            <summary>
+            公共段6
+            BOM子项DTO(为创建服务提供).Misc.公共段6
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg7">
+            <summary>
+            公共段7
+            BOM子项DTO(为创建服务提供).Misc.公共段7
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg8">
+            <summary>
+            公共段8
+            BOM子项DTO(为创建服务提供).Misc.公共段8
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg9">
+            <summary>
+            公共段9
+            BOM子项DTO(为创建服务提供).Misc.公共段9
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg10">
+            <summary>
+            公共段10
+            BOM子项DTO(为创建服务提供).Misc.公共段10
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg11">
+            <summary>
+            公共段11
+            BOM子项DTO(为创建服务提供).Misc.公共段11
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg12">
+            <summary>
+            公共段12
+            BOM子项DTO(为创建服务提供).Misc.公共段12
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg13">
+            <summary>
+            公共段13
+            BOM子项DTO(为创建服务提供).Misc.公共段13
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg14">
+            <summary>
+            公共段14
+            BOM子项DTO(为创建服务提供).Misc.公共段14
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg15">
+            <summary>
+            公共段15
+            BOM子项DTO(为创建服务提供).Misc.公共段15
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg16">
+            <summary>
+            公共段16
+            BOM子项DTO(为创建服务提供).Misc.公共段16
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg17">
+            <summary>
+            公共段17
+            BOM子项DTO(为创建服务提供).Misc.公共段17
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg18">
+            <summary>
+            公共段18
+            BOM子项DTO(为创建服务提供).Misc.公共段18
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg19">
+            <summary>
+            公共段19
+            BOM子项DTO(为创建服务提供).Misc.公共段19
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg20">
+            <summary>
+            公共段20
+            BOM子项DTO(为创建服务提供).Misc.公共段20
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg21">
+            <summary>
+            公共段21
+            BOM子项DTO(为创建服务提供).Misc.公共段21
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg22">
+            <summary>
+            公共段22
+            BOM子项DTO(为创建服务提供).Misc.公共段22
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg23">
+            <summary>
+            公共段23
+            BOM子项DTO(为创建服务提供).Misc.公共段23
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg24">
+            <summary>
+            公共段24
+            BOM子项DTO(为创建服务提供).Misc.公共段24
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg25">
+            <summary>
+            公共段25
+            BOM子项DTO(为创建服务提供).Misc.公共段25
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg26">
+            <summary>
+            公共段26
+            BOM子项DTO(为创建服务提供).Misc.公共段26
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg27">
+            <summary>
+            公共段27
+            BOM子项DTO(为创建服务提供).Misc.公共段27
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg28">
+            <summary>
+            公共段28
+            BOM子项DTO(为创建服务提供).Misc.公共段28
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg29">
+            <summary>
+            公共段29
+            BOM子项DTO(为创建服务提供).Misc.公共段29
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg30">
+            <summary>
+            公共段30
+            BOM子项DTO(为创建服务提供).Misc.公共段30
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg1">
+            <summary>
+            私有段1
+            BOM子项DTO(为创建服务提供).Misc.私有段1
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg2">
+            <summary>
+            私有段2
+            BOM子项DTO(为创建服务提供).Misc.私有段2
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg3">
+            <summary>
+            私有段3
+            BOM子项DTO(为创建服务提供).Misc.私有段3
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg4">
+            <summary>
+            私有段4
+            BOM子项DTO(为创建服务提供).Misc.私有段4
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg5">
+            <summary>
+            私有段5
+            BOM子项DTO(为创建服务提供).Misc.私有段5
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg6">
+            <summary>
+            私有段6
+            BOM子项DTO(为创建服务提供).Misc.私有段6
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg7">
+            <summary>
+            私有段7
+            BOM子项DTO(为创建服务提供).Misc.私有段7
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg8">
+            <summary>
+            私有段8
+            BOM子项DTO(为创建服务提供).Misc.私有段8
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg9">
+            <summary>
+            私有段9
+            BOM子项DTO(为创建服务提供).Misc.私有段9
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg10">
+            <summary>
+            私有段10
+            BOM子项DTO(为创建服务提供).Misc.私有段10
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg11">
+            <summary>
+            私有段11
+            BOM子项DTO(为创建服务提供).Misc.私有段11
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg12">
+            <summary>
+            私有段12
+            BOM子项DTO(为创建服务提供).Misc.私有段12
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg13">
+            <summary>
+            私有段13
+            BOM子项DTO(为创建服务提供).Misc.私有段13
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg14">
+            <summary>
+            私有段14
+            BOM子项DTO(为创建服务提供).Misc.私有段14
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg15">
+            <summary>
+            私有段15
+            BOM子项DTO(为创建服务提供).Misc.私有段15
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg16">
+            <summary>
+            私有段16
+            BOM子项DTO(为创建服务提供).Misc.私有段16
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg17">
+            <summary>
+            私有段17
+            BOM子项DTO(为创建服务提供).Misc.私有段17
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg18">
+            <summary>
+            私有段18
+            BOM子项DTO(为创建服务提供).Misc.私有段18
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg19">
+            <summary>
+            私有段19
+            BOM子项DTO(为创建服务提供).Misc.私有段19
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg20">
+            <summary>
+            私有段20
+            BOM子项DTO(为创建服务提供).Misc.私有段20
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg21">
+            <summary>
+            私有段21
+            BOM子项DTO(为创建服务提供).Misc.私有段21
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg22">
+            <summary>
+            私有段22
+            BOM子项DTO(为创建服务提供).Misc.私有段22
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg23">
+            <summary>
+            私有段23
+            BOM子项DTO(为创建服务提供).Misc.私有段23
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg24">
+            <summary>
+            私有段24
+            BOM子项DTO(为创建服务提供).Misc.私有段24
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg25">
+            <summary>
+            私有段25
+            BOM子项DTO(为创建服务提供).Misc.私有段25
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg26">
+            <summary>
+            私有段26
+            BOM子项DTO(为创建服务提供).Misc.私有段26
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg27">
+            <summary>
+            私有段27
+            BOM子项DTO(为创建服务提供).Misc.私有段27
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg28">
+            <summary>
+            私有段28
+            BOM子项DTO(为创建服务提供).Misc.私有段28
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg29">
+            <summary>
+            私有段29
+            BOM子项DTO(为创建服务提供).Misc.私有段29
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PrivateDescSeg30">
+            <summary>
+            私有段30
+            BOM子项DTO(为创建服务提供).Misc.私有段30
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_fixedScrap">
+            <summary>
+            固定损耗
+            BOM子项DTO(为创建服务提供).Misc.固定损耗
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_scrapType">
+            <summary>
+            损耗类型
+            BOM子项DTO(为创建服务提供).Misc.损耗类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_parentQty">
+            <summary>
+            母件底数
+            BOM子项DTO(为创建服务提供).Misc.母件底数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_bOMCompScalarScraps">
+            <summary>
+            子项阶梯损耗DTO
+            BOM子项DTO(为创建服务提供).Misc.子项阶梯损耗DTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isSpecialUseItem">
+            <summary>
+            专项控制
+            BOM子项DTO(为创建服务提供).Misc.专项控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_compProject">
+            <summary>
+            项目
+            BOM子项DTO(为创建服务提供).Misc.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            BOM子项DTO(为创建服务提供).Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_issueStyle">
+            <summary>
+            发料方式
+            BOM子项DTO(为创建服务提供).Misc.发料方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_supplyStyle">
+            <summary>
+            供应方式
+            BOM子项DTO(为创建服务提供).Misc.供应方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_subcontractItemSrc">
+            <summary>
+            委外料品来源
+            BOM子项DTO(为创建服务提供).Misc.委外料品来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_issueOrg">
+            <summary>
+            发料组织
+            BOM子项DTO(为创建服务提供).Misc.发料组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_jIT">
+            <summary>
+            指定存储地点
+            BOM子项DTO(为创建服务提供).Misc.指定存储地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_supplyWareHouse">
+            <summary>
+            供应地点
+            BOM子项DTO(为创建服务提供).Misc.供应地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_supplyBin">
+            <summary>
+            供应库位
+            BOM子项DTO(为创建服务提供).Misc.供应库位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_setChkAtWorkingStart">
+            <summary>
+            订单开工
+            BOM子项DTO(为创建服务提供).Misc.订单开工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_setChkAtComplete">
+            <summary>
+            订单完工
+            BOM子项DTO(为创建服务提供).Misc.订单完工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_setChkAtOptStart">
+            <summary>
+            工序开工
+            BOM子项DTO(为创建服务提供).Misc.工序开工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_setChkAtOptComplete">
+            <summary>
+            工序完工
+            BOM子项DTO(为创建服务提供).Misc.工序完工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isWholeSetIssue">
+            <summary>
+            齐套发料
+            BOM子项DTO(为创建服务提供).Misc.齐套发料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isOverIssue">
+            <summary>
+            允许超额领料
+            BOM子项DTO(为创建服务提供).Misc.允许超额领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_standardMaterialScale">
+            <summary>
+            超额领料比例
+            BOM子项DTO(为创建服务提供).Misc.超额领料比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isATP">
+            <summary>
+            ATP检查
+            BOM子项DTO(为创建服务提供).Misc.ATP检查
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isCTP">
+            <summary>
+            CTP检查
+            BOM子项DTO(为创建服务提供).Misc.CTP检查
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_leadTimeOffSet">
+            <summary>
+            提前期偏置时间
+            BOM子项DTO(为创建服务提供).Misc.提前期偏置时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_timeUOM">
+            <summary>
+            时间单位
+            BOM子项DTO(为创建服务提供).Misc.时间单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isMandatory">
+            <summary>
+            参与选配
+            BOM子项DTO(为创建服务提供).Misc.参与选配
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isExclude">
+            <summary>
+            选项互斥
+            BOM子项DTO(为创建服务提供).Misc.选项互斥
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isDefault">
+            <summary>
+            默认选项
+            BOM子项DTO(为创建服务提供).Misc.默认选项
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isOptionDependent">
+            <summary>
+            工艺选配
+            BOM子项DTO(为创建服务提供).Misc.工艺选配
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isCalcPrice">
+            <summary>
+            计算价格
+            BOM子项DTO(为创建服务提供).Misc.计算价格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_minSelectedQty">
+            <summary>
+            最小可选量
+            BOM子项DTO(为创建服务提供).Misc.最小可选量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_maxSelectedQty">
+            <summary>
+            最大可选量
+            BOM子项DTO(为创建服务提供).Misc.最大可选量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_fromDegree">
+            <summary>
+            从等级
+            BOM子项DTO(为创建服务提供).Misc.从等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_toDegree">
+            <summary>
+            到等级
+            BOM子项DTO(为创建服务提供).Misc.到等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_fromPotency">
+            <summary>
+            从成分
+            BOM子项DTO(为创建服务提供).Misc.从成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_toPotency">
+            <summary>
+            到成分
+            BOM子项DTO(为创建服务提供).Misc.到成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_projectMapNum">
+            <summary>
+            工程图号
+            BOM子项DTO(为创建服务提供).Misc.工程图号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_costElement">
+            <summary>
+            成本要素
+            BOM子项DTO(为创建服务提供).Misc.成本要素
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_costPercent">
+            <summary>
+            成本百分比
+            BOM子项DTO(为创建服务提供).Misc.成本百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg31">
+            <summary>
+            公共段31
+            BOM子项DTO(为创建服务提供).Misc.公共段31
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg32">
+            <summary>
+            公共段32
+            BOM子项DTO(为创建服务提供).Misc.公共段32
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg33">
+            <summary>
+            公共段33
+            BOM子项DTO(为创建服务提供).Misc.公共段33
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg34">
+            <summary>
+            公共段34
+            BOM子项DTO(为创建服务提供).Misc.公共段34
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg35">
+            <summary>
+            公共段35
+            BOM子项DTO(为创建服务提供).Misc.公共段35
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg36">
+            <summary>
+            公共段36
+            BOM子项DTO(为创建服务提供).Misc.公共段36
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg37">
+            <summary>
+            公共段37
+            BOM子项DTO(为创建服务提供).Misc.公共段37
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg38">
+            <summary>
+            公共段38
+            BOM子项DTO(为创建服务提供).Misc.公共段38
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg39">
+            <summary>
+            公共段39
+            BOM子项DTO(为创建服务提供).Misc.公共段39
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg40">
+            <summary>
+            公共段40
+            BOM子项DTO(为创建服务提供).Misc.公共段40
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg41">
+            <summary>
+            公共段41
+            BOM子项DTO(为创建服务提供).Misc.公共段41
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg42">
+            <summary>
+            公共段42
+            BOM子项DTO(为创建服务提供).Misc.公共段42
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg43">
+            <summary>
+            公共段43
+            BOM子项DTO(为创建服务提供).Misc.公共段43
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg44">
+            <summary>
+            公共段44
+            BOM子项DTO(为创建服务提供).Misc.公共段44
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg45">
+            <summary>
+            公共段45
+            BOM子项DTO(为创建服务提供).Misc.公共段45
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg46">
+            <summary>
+            公共段46
+            BOM子项DTO(为创建服务提供).Misc.公共段46
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg47">
+            <summary>
+            公共段47
+            BOM子项DTO(为创建服务提供).Misc.公共段47
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg48">
+            <summary>
+            公共段48
+            BOM子项DTO(为创建服务提供).Misc.公共段48
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg49">
+            <summary>
+            公共段49
+            BOM子项DTO(为创建服务提供).Misc.公共段49
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_descFlexField_PubDescSeg50">
+            <summary>
+            公共段50
+            BOM子项DTO(为创建服务提供).Misc.公共段50
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_consignProcessItemSrc">
+            <summary>
+            委托加工备料来源
+            BOM子项DTO(为创建服务提供).Misc.委托加工备料来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isDisassembly">
+            <summary>
+            默认拆出
+            BOM子项DTO(为创建服务提供).Misc.默认拆出
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_remark">
+            <summary>
+            备注
+            BOM子项DTO(为创建服务提供).Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_fixedMaterialNum">
+            <summary>
+            固定超额量
+            BOM子项DTO(为创建服务提供).Misc.固定超额量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_materialType">
+            <summary>
+            超额类型
+            BOM子项DTO(为创建服务提供).Misc.超额类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isManuallySelect">
+            <summary>
+            必选
+            BOM子项DTO(为创建服务提供).Misc.必选
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData.m_isDiffentBatchCtl">
+            <summary>
+            混批控制
+            BOM子项DTO(为创建服务提供).Misc.混批控制
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData">
+            <summary>
+            多产品产出DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.#ctor(System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.Int32,System.Int32,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,UFIDA.U9.ISV.MFG.BOM.BOMMasterDTO4CreateSvData,System.Int32,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_productType">
+            <summary>
+            产出类型
+            多产品产出DTO(为创建服务提供).Misc.产出类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_itemMaster">
+            <summary>
+            物料
+            多产品产出DTO(为创建服务提供).Misc.物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_itemVersionCode">
+            <summary>
+            版本号
+            多产品产出DTO(为创建服务提供).Misc.版本号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_degree">
+            <summary>
+            等级
+            多产品产出DTO(为创建服务提供).Misc.等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_potency">
+            <summary>
+            成分
+            多产品产出DTO(为创建服务提供).Misc.成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_forecastQty">
+            <summary>
+            数量
+            多产品产出DTO(为创建服务提供).Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_uOM">
+            <summary>
+            产出单位
+            多产品产出DTO(为创建服务提供).Misc.产出单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_costPercent">
+            <summary>
+            成本百分比
+            多产品产出DTO(为创建服务提供).Misc.成本百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_bOMMasterDTO4CreateSv">
+            <summary>
+            BOM母项DTO
+            多产品产出DTO(为创建服务提供).Misc.BOM母项DTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_lineNum">
+            <summary>
+            行号
+            多产品产出DTO(为创建服务提供).Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.DegreePercentDTO4CreateSvData.m_operationNum">
+            <summary>
+            工序号
+            多产品产出DTO(为创建服务提供).Misc.工序号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData">
+            <summary>
+            子项厂牌DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData.#ctor(UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData.m_bOMComponentDTO4CreateSv">
+            <summary>
+            BOM子项DTO(为创建服务提供)
+            子项厂牌DTO(为创建服务提供).Misc.BOM子项DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData.m_lineNum">
+            <summary>
+            行号
+            子项厂牌DTO(为创建服务提供).Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompSupplierDTO4CreateSvData.m_supplier">
+            <summary>
+            厂牌
+            子项厂牌DTO(为创建服务提供).Misc.厂牌
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData">
+            <summary>
+            子项插件位置DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData.#ctor(UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData,System.Int32,System.String,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData.m_bOMComponentDTO4CreateSv">
+            <summary>
+            BOM子项DTO(为创建服务提供)
+            子项插件位置DTO(为创建服务提供).Misc.BOM子项DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData.m_lineNum">
+            <summary>
+            行号
+            子项插件位置DTO(为创建服务提供).Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData.m_position">
+            <summary>
+            插件位置
+            子项插件位置DTO(为创建服务提供).Misc.插件位置
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompPositionDTO4CreateSvData.m_usage">
+            <summary>
+            用量
+            子项插件位置DTO(为创建服务提供).Misc.用量
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData">
+            <summary>
+            批量用量DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.#ctor(UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.m_bOMComponentDTO4CreateSv">
+            <summary>
+            BOM子项DTO(为创建服务提供)
+            批量用量DTO(为创建服务提供).Misc.BOM子项DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.m_fromLot">
+            <summary>
+            从数量
+            批量用量DTO(为创建服务提供).Misc.从数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.m_toLot">
+            <summary>
+            到数量
+            批量用量DTO(为创建服务提供).Misc.到数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.m_usage">
+            <summary>
+            固定用量
+            批量用量DTO(为创建服务提供).Misc.固定用量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.m_variableUsageQty">
+            <summary>
+            变动用量
+            批量用量DTO(为创建服务提供).Misc.变动用量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMComponentLotDTO4CreateSvData.m_parentQty">
+            <summary>
+            母件底数
+            批量用量DTO(为创建服务提供).Misc.母件底数
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData">
+            <summary>
+            子项阶梯损耗DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.#ctor(UFIDA.U9.ISV.MFG.BOM.BOMComponentDTO4CreateSvData,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.m_bOMComponentDTO4CreateSv">
+            <summary>
+            BOM子项DTO(为创建服务提供)
+            子项阶梯损耗DTO(为创建服务提供).Misc.BOM子项DTO(为创建服务提供)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.m_lineNum">
+            <summary>
+            行号
+            子项阶梯损耗DTO(为创建服务提供).Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.m_fromUsageQty">
+            <summary>
+            从数量
+            子项阶梯损耗DTO(为创建服务提供).Misc.从数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.m_toUsageQty">
+            <summary>
+            到数量
+            子项阶梯损耗DTO(为创建服务提供).Misc.到数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.m_fixedScrap">
+            <summary>
+            固定损耗
+            子项阶梯损耗DTO(为创建服务提供).Misc.固定损耗
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMCompScalarScrapDTO4CreateSvData.m_scrap">
+            <summary>
+            变动损耗
+            子项阶梯损耗DTO(为创建服务提供).Misc.变动损耗
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.LogDTO4CreateSvData">
+            <summary>
+            日志信息DTO(为创建服务提供) DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.LogDTO4CreateSvData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.LogDTO4CreateSvData.#ctor(UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData,System.Boolean,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.LogDTO4CreateSvData.m_bOMMasterDTO">
+            <summary>
+            BOM母项DTO
+            日志信息DTO(为创建服务提供).Misc.BOM母项DTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.LogDTO4CreateSvData.m_isOperationSuccess">
+            <summary>
+            操作是否成功完成
+            日志信息DTO(为创建服务提供).Misc.操作是否成功完成
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.LogDTO4CreateSvData.m_errorMsg">
+            <summary>
+            错误信息
+            日志信息DTO(为创建服务提供).Misc.错误信息
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData">
+            <summary>
+            工作中心信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.#ctor(UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.String,System.String,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,System.Int32,System.Boolean,System.Decimal,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,System.DateTime,System.DateTime,System.Boolean,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,System.Decimal,System.Decimal,System.Decimal,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.WCResDTOData},System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_org">
+            <summary>
+            工作中心组织
+            工作中心信息DTO.Misc.工作中心组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_code">
+            <summary>
+            编码
+            工作中心信息DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_name">
+            <summary>
+            名称
+            工作中心信息DTO.Misc.名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_department">
+            <summary>
+            部门
+            工作中心信息DTO.Misc.部门
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_isKeyWorkCenter">
+            <summary>
+            是否关键工作中心
+            工作中心信息DTO.Misc.是否关键工作中心
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_keyType">
+            <summary>
+            关键类别
+            工作中心信息DTO.Misc.关键类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_isBottleNeckWc">
+            <summary>
+            是否瓶颈工作中心
+            工作中心信息DTO.Misc.是否瓶颈工作中心
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_preBufferTime">
+            <summary>
+            前缓冲时间
+            工作中心信息DTO.Misc.前缓冲时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_timeUOM">
+            <summary>
+            时间单位
+            工作中心信息DTO.Misc.时间单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_isEffective">
+            <summary>
+            是否生效
+            工作中心信息DTO.Misc.是否生效
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_effDate">
+            <summary>
+            生效日期
+            工作中心信息DTO.Misc.生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_disDate">
+            <summary>
+            失效日期
+            工作中心信息DTO.Misc.失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_isCalcCapacity">
+            <summary>
+            计算能力
+            工作中心信息DTO.Misc.计算能力
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_workCalendar">
+            <summary>
+            工作日历
+            工作中心信息DTO.Misc.工作日历
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_is24">
+            <summary>
+            24小时可用
+            工作中心信息DTO.Misc.24小时可用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_standardCapacity">
+            <summary>
+            标准产能
+            工作中心信息DTO.Misc.标准产能
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_normalCapacity">
+            <summary>
+            正常产能
+            工作中心信息DTO.Misc.正常产能
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_idealCapacity">
+            <summary>
+            理想产能
+            工作中心信息DTO.Misc.理想产能
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_wCRess">
+            <summary>
+            工作中心资源集合
+            工作中心信息DTO.Misc.工作中心资源集合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData.m_workCenterGroup">
+            <summary>
+            工作中心分组
+            工作中心信息DTO.Misc.工作中心分组
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.WCResDTOData">
+            <summary>
+            工作中心信息资源DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WCResDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WCResDTOData.#ctor(UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.DateTime,System.DateTime,UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCResDTOData.m_resource">
+            <summary>
+            资源
+            工作中心信息资源DTO.Misc.资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCResDTOData.m_effectiveDate">
+            <summary>
+            生效日期
+            工作中心信息资源DTO.Misc.生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCResDTOData.m_disableDate">
+            <summary>
+            失效日期
+            工作中心信息资源DTO.Misc.失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCResDTOData.m_workCenterDTO">
+            <summary>
+            工作中心信息DTO
+            工作中心信息资源DTO.Misc.工作中心信息DTO
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData">
+            <summary>
+            工作中心业务主键DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData.#ctor(System.Int64,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.String,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.WCResKeyDTOData})">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData.m_iD">
+            <summary>
+            唯一标识
+            工作中心业务主键DTO.Misc.唯一标识
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData.m_org">
+            <summary>
+            组织
+            工作中心业务主键DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData.m_code">
+            <summary>
+            编码
+            工作中心业务主键DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData.m_wCResKeyDTOs">
+            <summary>
+            工作中心业务主键资源DTO集合
+            工作中心业务主键DTO.Misc.工作中心业务主键资源DTO集合
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.WCResKeyDTOData">
+            <summary>
+            工作中心业务主键资源DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WCResKeyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WCResKeyDTOData.#ctor(UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCResKeyDTOData.m_resource">
+            <summary>
+            资源
+            工作中心业务主键资源DTO.Misc.资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WCResKeyDTOData.m_wCKeyDTO">
+            <summary>
+            工作中心业务主键DTO
+            工作中心业务主键资源DTO.Misc.工作中心业务主键DTO
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.WorkCenterModifyDTOData">
+            <summary>
+            工作中心修改DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WorkCenterModifyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.WorkCenterModifyDTOData.#ctor(UFIDA.U9.ISV.MFG.BOM.WCKeyDTOData,UFIDA.U9.ISV.MFG.BOM.WorkCenterDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterModifyDTOData.m_wCKeyDTO">
+            <summary>
+            工作中心主键
+            工作中心修改DTO.Misc.工作中心主键
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.WorkCenterModifyDTOData.m_workCenterDTO">
+            <summary>
+            工作中心信息
+            工作中心修改DTO.Misc.工作中心信息
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.RTGDTOData">
+            <summary>
+            工艺路线产业链接口APIDTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.#ctor(UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.String,System.String,System.Int32,System.Int32,System.Boolean,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.DateTime,System.DateTime,System.Decimal,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.OPDTOData},UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_itemMaster">
+            <summary>
+            料品
+            工艺路线产业链接口APIDTO.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_routingVersionCode">
+            <summary>
+            工艺版本
+            工艺路线产业链接口APIDTO.Misc.工艺版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_rTGDesc">
+            <summary>
+            工艺路线描述
+            工艺路线产业链接口APIDTO.Misc.工艺路线描述
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_alternateType">
+            <summary>
+            替换类型
+            工艺路线产业链接口APIDTO.Misc.替换类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_lot">
+            <summary>
+            工艺批量
+            工艺路线产业链接口APIDTO.Misc.工艺批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_isPrimaryLot">
+            <summary>
+            是否主批量
+            工艺路线产业链接口APIDTO.Misc.是否主批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_productUOM">
+            <summary>
+            生产单位
+            工艺路线产业链接口APIDTO.Misc.生产单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_productionLine">
+            <summary>
+            生产线
+            工艺路线产业链接口APIDTO.Misc.生产线
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_effectiveDate">
+            <summary>
+            生效日期
+            工艺路线产业链接口APIDTO.Misc.生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_disableDate">
+            <summary>
+            失效日期
+            工艺路线产业链接口APIDTO.Misc.失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_cumulateYieldRate">
+            <summary>
+            累计工序产出率
+            工艺路线产业链接口APIDTO.Misc.累计工序产出率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_project">
+            <summary>
+            项目
+            工艺路线产业链接口APIDTO.Misc.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_ownerOrg">
+            <summary>
+            货主组织
+            工艺路线产业链接口APIDTO.Misc.货主组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_isCTP">
+            <summary>
+            CTP检查标志
+            工艺路线产业链接口APIDTO.Misc.CTP检查标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_operations">
+            <summary>
+            作业集合
+            工艺路线产业链接口APIDTO.Misc.作业集合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGDTOData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            工艺路线产业链接口APIDTO.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.OPDTOData">
+            <summary>
+            工艺路线产业链工序信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.OPDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.OPDTOData.#ctor(UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.String,System.String,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,System.Boolean,System.Boolean,System.Decimal,System.Decimal,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Decimal,System.Boolean,System.Boolean,System.Boolean,System.Decimal,System.Boolean,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Decimal,System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.String,System.String,System.Decimal,UFIDA.U9.ISV.MFG.BOM.RTGDTOData,System.Int32,UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Int32,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_org">
+            <summary>
+            组织
+            工艺路线产业链工序信息DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_sequence">
+            <summary>
+            工序号
+            工艺路线产业链工序信息DTO.Misc.工序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_description">
+            <summary>
+            工序说明
+            工艺路线产业链工序信息DTO.Misc.工序说明
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_workCenter">
+            <summary>
+            工作中心
+            工艺路线产业链工序信息DTO.Misc.工作中心
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isCountPoint">
+            <summary>
+            是否产出报告
+            工艺路线产业链工序信息DTO.Misc.是否产出报告
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isPrintSeqTransferDoc">
+            <summary>
+            打印工序转移单
+            工艺路线产业链工序信息DTO.Misc.打印工序转移单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isSubContract">
+            <summary>
+            委外标志
+            工艺路线产业链工序信息DTO.Misc.委外标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_setupTime">
+            <summary>
+            准备工时
+            工艺路线产业链工序信息DTO.Misc.准备工时
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_runTime">
+            <summary>
+            加工工时
+            工艺路线产业链工序信息DTO.Misc.加工工时
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_timeUOM">
+            <summary>
+            时间单位
+            工艺路线产业链工序信息DTO.Misc.时间单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isRcvDirectly">
+            <summary>
+            完全自动转移
+            工艺路线产业链工序信息DTO.Misc.完全自动转移
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_rcvWareHouse">
+            <summary>
+            完工地点
+            工艺路线产业链工序信息DTO.Misc.完工地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_rcvBin">
+            <summary>
+            完工库位
+            工艺路线产业链工序信息DTO.Misc.完工库位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_issueWareHouse">
+            <summary>
+            领料地点
+            工艺路线产业链工序信息DTO.Misc.领料地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_issueBin">
+            <summary>
+            领料库位
+            工艺路线产业链工序信息DTO.Misc.领料库位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_minTransQty">
+            <summary>
+            最小转移数量
+            工艺路线产业链工序信息DTO.Misc.最小转移数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isSyncSubc">
+            <summary>
+            同步委外
+            工艺路线产业链工序信息DTO.Misc.同步委外
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isTraceLotSn">
+            <summary>
+            追踪批号序列号
+            工艺路线产业链工序信息DTO.Misc.追踪批号序列号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isAllowUncontinueRun">
+            <summary>
+            允许非连续加工
+            工艺路线产业链工序信息DTO.Misc.允许非连续加工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_minRunLot">
+            <summary>
+            加工批量
+            工艺路线产业链工序信息DTO.Misc.加工批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isContinuousDispatch">
+            <summary>
+            连续派工
+            工艺路线产业链工序信息DTO.Misc.连续派工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_outputUOM">
+            <summary>
+            工序产出单位
+            工艺路线产业链工序信息DTO.Misc.工序产出单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_yield">
+            <summary>
+            工序产出率
+            工艺路线产业链工序信息DTO.Misc.工序产出率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_splitMerge">
+            <summary>
+            合并拆分节点
+            工艺路线产业链工序信息DTO.Misc.合并拆分节点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_preSequence">
+            <summary>
+            前工序
+            工艺路线产业链工序信息DTO.Misc.前工序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_nextSequence">
+            <summary>
+            后工序
+            工艺路线产业链工序信息DTO.Misc.后工序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isAutoCharge">
+            <summary>
+            是否自动计算工序成本
+            工艺路线产业链工序信息DTO.Misc.是否自动计算工序成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isBackMaterial">
+            <summary>
+            是否倒冲材料
+            工艺路线产业链工序信息DTO.Misc.是否倒冲材料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isBackLabor">
+            <summary>
+            是否倒冲人工
+            工艺路线产业链工序信息DTO.Misc.是否倒冲人工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isBackMachine">
+            <summary>
+            是否倒冲机器
+            工艺路线产业链工序信息DTO.Misc.是否倒冲机器
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isBackOthers">
+            <summary>
+            是否倒冲其他资源
+            工艺路线产业链工序信息DTO.Misc.是否倒冲其他资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isRollupCost">
+            <summary>
+            成本滚加标志
+            工艺路线产业链工序信息DTO.Misc.成本滚加标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isInspect">
+            <summary>
+            是否校验
+            工艺路线产业链工序信息DTO.Misc.是否校验
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_inspectScheme">
+            <summary>
+            检验方案
+            工艺路线产业链工序信息DTO.Misc.检验方案
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_inspectSchemeVersion">
+            <summary>
+            检验方案版本
+            工艺路线产业链工序信息DTO.Misc.检验方案版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_overlapSequence">
+            <summary>
+            重叠工序
+            工艺路线产业链工序信息DTO.Misc.重叠工序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_overlapRate">
+            <summary>
+            重叠率
+            工艺路线产业链工序信息DTO.Misc.重叠率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_rTGDTO">
+            <summary>
+            工艺路线产业链接口APIDTO
+            工艺路线产业链工序信息DTO.Misc.工艺路线产业链接口APIDTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_cUD">
+            <summary>
+            CUD
+            工艺路线产业链工序信息DTO.Misc.CUD
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            工艺路线产业链工序信息DTO.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_capStartTimeUOM">
+            <summary>
+            开工时间单位 
+            工艺路线产业链工序信息DTO.Misc.开工时间单位 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_completeTimeCalcMode">
+            <summary>
+            完工时间计算方式 
+            工艺路线产业链工序信息DTO.Misc.完工时间计算方式 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_capacityTimeUOM">
+            <summary>
+            完工时间单位 
+            工艺路线产业链工序信息DTO.Misc.完工时间单位 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_isSubcOperation">
+            <summary>
+            委外工序 
+            工艺路线产业链工序信息DTO.Misc.委外工序 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPDTOData.m_subcontractItemMaster">
+            <summary>
+            委外料品
+            工艺路线产业链工序信息DTO.Misc.委外料品
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData">
+            <summary>
+            工艺产业链主键DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.#ctor(System.Int64,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.String,System.Int32,System.Int32,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,UFIDA.U9.CBO.MFG.DTOs.ExternalDTOData,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.OpModifyDTOData},UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_iD">
+            <summary>
+            唯一标志
+            工艺产业链主键DTO.Misc.唯一标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_org">
+            <summary>
+            组织
+            工艺产业链主键DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_itemMaster">
+            <summary>
+            料品
+            工艺产业链主键DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_routingVersionCode">
+            <summary>
+            版本
+            工艺产业链主键DTO.Misc.版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_alternateType">
+            <summary>
+            替换类型
+            工艺产业链主键DTO.Misc.替换类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_lot">
+            <summary>
+            批量
+            工艺产业链主键DTO.Misc.批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_productUOM">
+            <summary>
+            生产单位
+            工艺产业链主键DTO.Misc.生产单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_productLine">
+            <summary>
+            生产线
+            工艺产业链主键DTO.Misc.生产线
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_ownerOrg">
+            <summary>
+            货主组织
+            工艺产业链主键DTO.Misc.货主组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_project">
+            <summary>
+            项目
+            工艺产业链主键DTO.Misc.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_modifyOps">
+            <summary>
+            工序修改集合DTO
+            工艺产业链主键DTO.Misc.工序修改集合DTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            工艺产业链主键DTO.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.RTGModifyDTOData">
+            <summary>
+            工艺路线修改DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGModifyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGModifyDTOData.#ctor(UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData,UFIDA.U9.ISV.MFG.BOM.RTGDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGModifyDTOData.m_rTGKeyDTO">
+            <summary>
+            RTGKeyDTO
+            工艺路线修改DTO.Misc.RTGKeyDTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGModifyDTOData.m_rTGDTO">
+            <summary>
+            RTGDTO
+            工艺路线修改DTO.Misc.RTGDTO
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.OpModifyDTOData">
+            <summary>
+            工序修改集合DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.OpModifyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.OpModifyDTOData.#ctor(System.Int64,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OpModifyDTOData.m_iD">
+            <summary>
+            唯一标志
+            工序修改集合DTO.Misc.唯一标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OpModifyDTOData.m_opNum">
+            <summary>
+            工序号
+            工序修改集合DTO.Misc.工序号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.RTGKeyRemoveDTOData">
+            <summary>
+            工艺产业链主键删除DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGKeyRemoveDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RTGKeyRemoveDTOData.#ctor(System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.RTGKeyDTOData},System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.OPKeyDTOData})">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyRemoveDTOData.m_rTGKeyDTOs">
+            <summary>
+            工艺产业链主键DTO集合
+            工艺产业链主键删除DTO.Misc.工艺产业链主键DTO集合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RTGKeyRemoveDTOData.m_oPKeyDTOs">
+            <summary>
+            工艺工序主键DTO集合
+            工艺产业链主键删除DTO.Misc.工艺工序主键DTO集合
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData">
+            <summary>
+            BOM母项结果DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.#ctor(System.Int64,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_bOMMasterID">
+            <summary>
+            BOM母项ID
+            BOM母项结果DTO.Misc.BOM母项ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_org">
+            <summary>
+            组织
+            BOM母项结果DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_itemMaster">
+            <summary>
+            物料
+            BOM母项结果DTO.Misc.物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_bOMVersionCode">
+            <summary>
+            版本号
+            BOM母项结果DTO.Misc.版本号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_lot">
+            <summary>
+            批量
+            BOM母项结果DTO.Misc.批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_project">
+            <summary>
+            项目
+            BOM母项结果DTO.Misc.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_ownerOrg">
+            <summary>
+            货主组织
+            BOM母项结果DTO.Misc.货主组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_productionLine">
+            <summary>
+            生产线
+            BOM母项结果DTO.Misc.生产线
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_alternateType">
+            <summary>
+            生产目的
+            BOM母项结果DTO.Misc.生产目的
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_productUOM">
+            <summary>
+            生产单位
+            BOM母项结果DTO.Misc.生产单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.BOMMasterResultDTOData.m_bOMType">
+            <summary>
+            BOM类型
+            BOM母项结果DTO.Misc.BOM类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData">
+            <summary>
+            查询删除参数DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.#ctor(System.Int64,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_bOMMasterID">
+            <summary>
+            BOM母项ID
+            查询删除参数DTO.Misc.BOM母项ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_org">
+            <summary>
+            组织
+            查询删除参数DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_itemMaster">
+            <summary>
+            物料
+            查询删除参数DTO.Misc.物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_bOMVersionCode">
+            <summary>
+            版本号
+            查询删除参数DTO.Misc.版本号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_lot">
+            <summary>
+            批量
+            查询删除参数DTO.Misc.批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_project">
+            <summary>
+            项目
+            查询删除参数DTO.Misc.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_ownerOrg">
+            <summary>
+            货主组织
+            查询删除参数DTO.Misc.货主组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_productionLine">
+            <summary>
+            生产线
+            查询删除参数DTO.Misc.生产线
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_alternateType">
+            <summary>
+            生产目的
+            查询删除参数DTO.Misc.生产目的
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_productUOM">
+            <summary>
+            生产单位
+            查询删除参数DTO.Misc.生产单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryDelParamsDTOData.m_bOMType">
+            <summary>
+            BOM类型
+            查询删除参数DTO.Misc.BOM类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.OPKeyDTOData">
+            <summary>
+            工艺产业链工序主键DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.OPKeyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.OPKeyDTOData.#ctor(System.Int64,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPKeyDTOData.m_iD">
+            <summary>
+            工序ID
+            工艺产业链工序主键DTO.Misc.工序ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.OPKeyDTOData.m_opSequence">
+            <summary>
+            工序号
+            工艺产业链工序主键DTO.Misc.工序号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData">
+            <summary>
+            资源DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.#ctor(UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.String,System.Int32,System.Boolean,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Int32,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.DateTime,System.DateTime,System.Boolean,System.Decimal,System.Boolean,System.Decimal,System.Decimal,System.Boolean,System.Decimal,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData},UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Int32,System.Int32,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Collections.Generic.List{UFIDA.U9.ISV.MFG.BOM.ResItemDTOData})">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_org">
+            <summary>
+            组织
+            资源DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_code">
+            <summary>
+            编码
+            资源DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_name">
+            <summary>
+            名称
+            资源DTO.Misc.名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_resourceGroup">
+            <summary>
+            资源分类
+            资源DTO.Misc.资源分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isRCCPResource">
+            <summary>
+            粗能力专用
+            资源DTO.Misc.粗能力专用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_qty">
+            <summary>
+            数量
+            资源DTO.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_qtyUOM">
+            <summary>
+            数量单位
+            资源DTO.Misc.数量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_usageUOM">
+            <summary>
+            用量单位
+            资源DTO.Misc.用量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isCapacityUOM">
+            <summary>
+            能力单位
+            资源DTO.Misc.能力单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isCharge">
+            <summary>
+            计算成本
+            资源DTO.Misc.计算成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isChargeByStdRate">
+            <summary>
+            按标准费率
+            资源DTO.Misc.按标准费率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_costElement">
+            <summary>
+            成本要素
+            资源DTO.Misc.成本要素
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_chargeType">
+            <summary>
+            计费时机
+            资源DTO.Misc.计费时机
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_chargeBasis">
+            <summary>
+            计费基础
+            资源DTO.Misc.计费基础
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_subContractType">
+            <summary>
+            委外方式
+            资源DTO.Misc.委外方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_subContractSupplier">
+            <summary>
+            委外商
+            资源DTO.Misc.委外商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_subContractOrg">
+            <summary>
+            委外组织
+            资源DTO.Misc.委外组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_subContractItem">
+            <summary>
+            委外料品
+            资源DTO.Misc.委外料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_subContractItemVersion">
+            <summary>
+            委外物料版本
+            资源DTO.Misc.委外物料版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isCalcCapacity">
+            <summary>
+            是否计算能力
+            资源DTO.Misc.是否计算能力
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_is24">
+            <summary>
+            是否24小时资源
+            资源DTO.Misc.是否24小时资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_standardCapacity">
+            <summary>
+            标准产能
+            资源DTO.Misc.标准产能
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_workCalendar">
+            <summary>
+            工作日历
+            资源DTO.Misc.工作日历
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_person">
+            <summary>
+            人员
+            资源DTO.Misc.人员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isEffective">
+            <summary>
+            是否生效
+            资源DTO.Misc.是否生效
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_eff_From">
+            <summary>
+            生效起始日期
+            资源DTO.Misc.生效起始日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_eff_To">
+            <summary>
+            生效截至日期
+            资源DTO.Misc.生效截至日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isExclusive">
+            <summary>
+            是否独占资源
+            资源DTO.Misc.是否独占资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_capacityValue">
+            <summary>
+            能力值
+            资源DTO.Misc.能力值
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isBestraddleWorkCenter">
+            <summary>
+            是否跨工作中心资源
+            资源DTO.Misc.是否跨工作中心资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_idealCapacity">
+            <summary>
+            理想产能
+            资源DTO.Misc.理想产能
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_normalCapacity">
+            <summary>
+            正常产能
+            资源DTO.Misc.正常产能
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_isCTP">
+            <summary>
+            是否CTP资源
+            资源DTO.Misc.是否CTP资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_assignedRate">
+            <summary>
+            附加系数
+            资源DTO.Misc.附加系数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_resCapacityiAdjustRcd">
+            <summary>
+            资源产能调整记录 
+            资源DTO.Misc.资源产能调整记录 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_superiorRes">
+            <summary>
+            归属资源 
+            资源DTO.Misc.归属资源 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_chgScheme">
+            <summary>
+            换机方案 
+            资源DTO.Misc.换机方案 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_capacitySln">
+            <summary>
+            产能策略 
+            资源DTO.Misc.产能策略 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_capacityMode">
+            <summary>
+            排产模式 
+            资源DTO.Misc.排产模式 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_priority">
+            <summary>
+            优先顺序
+            资源DTO.Misc.优先顺序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_productRate">
+            <summary>
+            平均速率 
+            资源DTO.Misc.平均速率 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_productUOM">
+            <summary>
+            速率产量单位 
+            资源DTO.Misc.速率产量单位 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_productTimeUOM">
+            <summary>
+            速率时间单位
+            资源DTO.Misc.速率时间单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData.m_resItems">
+            <summary>
+            资源用途
+            资源DTO.Misc.资源用途
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData">
+            <summary>
+            资源主键DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData.#ctor(System.Int64,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData.m_iD">
+            <summary>
+            ID
+            资源主键DTO.Misc.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData.m_org">
+            <summary>
+            组织
+            资源主键DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData.m_code">
+            <summary>
+            编码
+            资源主键DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.ResourceModifyDTOData">
+            <summary>
+            资源修改DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResourceModifyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResourceModifyDTOData.#ctor(UFIDA.U9.ISV.MFG.BOM.ResourceKeyDTOData,UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResourceModifyDTOData.m_resourceKeyDTO">
+            <summary>
+            资源主键
+            资源修改DTO.Misc.资源主键
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResourceModifyDTOData.m_resourceDTO">
+            <summary>
+            资源
+            资源修改DTO.Misc.资源
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.RetDTOData">
+            <summary>
+            创建返回信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RetDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.RetDTOData.#ctor(System.String,System.Boolean,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RetDTOData.m_code">
+            <summary>
+            编码
+            创建返回信息DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RetDTOData.m_isOperationSuccess">
+            <summary>
+            成功标记
+            创建返回信息DTO.Misc.成功标记
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.RetDTOData.m_errorMsg">
+            <summary>
+            异常信息
+            创建返回信息DTO.Misc.异常信息
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.QueryParamsDTOData">
+            <summary>
+            查询DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.QueryParamsDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.QueryParamsDTOData.#ctor(System.String,System.String,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryParamsDTOData.m_org">
+            <summary>
+            组织编码
+            查询DTO.Misc.组织编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryParamsDTOData.m_code">
+            <summary>
+            资源编码
+            查询DTO.Misc.资源编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.QueryParamsDTOData.m_iD">
+            <summary>
+            资源编码
+            查询DTO.Misc.资源编码
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData">
+            <summary>
+            作业DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.#ctor(System.String,System.String,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.DateTime,System.DateTime,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_code">
+            <summary>
+            编码
+            作业DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_name">
+            <summary>
+            名称
+            作业DTO.Misc.名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_workCenter">
+            <summary>
+            工作中心
+            作业DTO.Misc.工作中心
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isCountPoint">
+            <summary>
+            报告产出点
+            作业DTO.Misc.报告产出点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isAutoCharge">
+            <summary>
+            自动计算成本
+            作业DTO.Misc.自动计算成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isBackMaterial">
+            <summary>
+            倒冲材料
+            作业DTO.Misc.倒冲材料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isBackLabor">
+            <summary>
+            倒冲人工
+            作业DTO.Misc.倒冲人工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isBackMachine">
+            <summary>
+            倒冲机器
+            作业DTO.Misc.倒冲机器
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isBackResource">
+            <summary>
+            倒冲其他资源
+            作业DTO.Misc.倒冲其他资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isCostRollup">
+            <summary>
+            成本滚加
+            作业DTO.Misc.成本滚加
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_timeUOM">
+            <summary>
+            时间单位
+            作业DTO.Misc.时间单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_setupTime">
+            <summary>
+            准备时间
+            作业DTO.Misc.准备时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_runTime">
+            <summary>
+            加工时间
+            作业DTO.Misc.加工时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_rcvWh">
+            <summary>
+            完工地点
+            作业DTO.Misc.完工地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_rcvBin">
+            <summary>
+            完工库位
+            作业DTO.Misc.完工库位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_issueWh">
+            <summary>
+            领料地点
+            作业DTO.Misc.领料地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_issueBin">
+            <summary>
+            领料库位
+            作业DTO.Misc.领料库位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isInspect">
+            <summary>
+            检验
+            作业DTO.Misc.检验
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_inspectSchema">
+            <summary>
+            检验方案
+            作业DTO.Misc.检验方案
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_inspectSchemeVersion">
+            <summary>
+            方案版本
+            作业DTO.Misc.方案版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_eff_From">
+            <summary>
+            生效起始日期
+            作业DTO.Misc.生效起始日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_eff_To">
+            <summary>
+            生效截至日期
+            作业DTO.Misc.生效截至日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_masterOrg">
+            <summary>
+            来源组织
+            作业DTO.Misc.来源组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isTraceLotSn">
+            <summary>
+            批号控制
+            作业DTO.Misc.批号控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isPrintSeqTransferDoc">
+            <summary>
+            打印工序转移单
+            作业DTO.Misc.打印工序转移单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isAllowUncontinueRun">
+            <summary>
+            允许非连续加工
+            作业DTO.Misc.允许非连续加工
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData.m_isTraceSerialNo">
+            <summary>
+            序列号控制
+            作业DTO.Misc.序列号控制
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData">
+            <summary>
+            作业主键DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData.#ctor(System.Int64,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData.m_iD">
+            <summary>
+            ID
+            作业主键DTO.Misc.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData.m_org">
+            <summary>
+            组织
+            作业主键DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData.m_code">
+            <summary>
+            编码
+            作业主键DTO.Misc.编码
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.StdOperationModiDTOData">
+            <summary>
+            作业修改DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.StdOperationModiDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.StdOperationModiDTOData.#ctor(UFIDA.U9.ISV.MFG.BOM.StdOperationKeyDTOData,UFIDA.U9.ISV.MFG.BOM.StdOperation4ExternalDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperationModiDTOData.m_stdOperationKeyDTO">
+            <summary>
+            作业主键
+            作业修改DTO.Misc.作业主键
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.StdOperationModiDTOData.m_stdOperationDTO">
+            <summary>
+            作业DTO
+            作业修改DTO.Misc.作业DTO
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData">
+            <summary>
+            资源产能调整记录DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.#ctor(UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData,System.Int32,System.Decimal,System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.m_resource">
+            <summary>
+            资源
+            资源产能调整记录DTO.Misc.资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.m_capacitySort">
+            <summary>
+            类别
+            资源产能调整记录DTO.Misc.类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.m_adjustRate">
+            <summary>
+            能力调整比例
+            资源产能调整记录DTO.Misc.能力调整比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.m_adjustReason">
+            <summary>
+            调整原因
+            资源产能调整记录DTO.Misc.调整原因
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.m_startDateTime">
+            <summary>
+            起始日期
+            资源产能调整记录DTO.Misc.起始日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResCapacityiAdjustRcdDTOData.m_endDateTime">
+            <summary>
+            终止日期
+            资源产能调整记录DTO.Misc.终止日期
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData">
+            <summary>
+            资源用途DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.#ctor(UFIDA.U9.ISV.MFG.BOM.Resource4ExternalDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_resource">
+            <summary>
+            资源
+            资源用途DTO.Misc.资源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_itemArray">
+            <summary>
+            物料分类
+            资源用途DTO.Misc.物料分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_item">
+            <summary>
+            物料
+            资源用途DTO.Misc.物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_usageBasis">
+            <summary>
+            用量基础
+            资源用途DTO.Misc.用量基础
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_qtyUOM">
+            <summary>
+            产量单位
+            资源用途DTO.Misc.产量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_perQty">
+            <summary>
+            单位产量
+            资源用途DTO.Misc.单位产量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.MFG.BOM.ResItemDTOData.m_capacityUOM">
+            <summary>
+            能力单位
+            资源用途DTO.Misc.能力单位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.MFG.MFGSV.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.MFG.MFGSV.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.MFG.MFGSV.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

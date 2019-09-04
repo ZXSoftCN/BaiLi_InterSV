@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project id="de262073-eb07-4758-a4d7-d883d53570ea" name="UFIDA.U9.Cust.ZX.BaiLiSV" displayName="BaiLiSV" description="" help="" type="SV" assemblyName="UFIDA.U9.Cust.ZX.BaiLiSV" mapProject="" resourceName="" projectVersion="V21">
+  <Imports>
+    <Import id="8ab46f08-073a-401f-8cdc-6525a06a3718" name="BaseBE" displayName="BaseBE" description="" help="" componentid="2402fd32-810a-4130-811d-f1e6183a5a26" path="..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Metadata\UBF\UFIDA.U9.Base.BaseBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="91af542f-3aae-41c9-ba23-93e6b004baa9" name="CBO_PubBE" displayName="CBO_PubBE" description="" help="" componentid="fe8dc9a2-365d-41c0-8f48-c02abb016910" path="..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Metadata\App\UFIDA.U9.CBO.PubBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="d66c169e-ff22-4151-8e82-46b4a80b598d" name="ItemSV" displayName="ItemSV" description="" help="" componentid="72af0197-3f39-4f4c-884f-3e33f8bb9fe6" path="..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Metadata\App\UFIDA.U9.ISV.Item.MetaData.dll" type="SV" isRuntime="True" />
+    <Import id="80195fe7-6faa-4e5f-be05-2e5c13d1a7d4" name="MFGSV" displayName="MFGSV" description="" help="" componentid="768bdbaf-34f3-4837-80fa-9a99eaa4e088" path="..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Metadata\App\UFIDA.U9.ISV.MFG.MFGSV.MetaData.dll" type="SV" isRuntime="True" />
+    <Import id="137285dc-8eec-476a-af1f-8f7e2854805a" name="MOBE" displayName="MOBE" description="" help="" componentid="3f6884f2-49ff-4582-9f56-f86246020dbe" path="..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Metadata\App\UFIDA.U9.MO.MOBE.MetaData.dll" type="BE" isRuntime="True" />
+  </Imports>
   <SourceControl />
   <ItemGroup>
     <Item id="0e595d46-9594-4e18-acbb-158659dde82e" name="BaiLi_InterSV.ubfsvr" displayName="BaiLi_InterSV.ubfsvr" description="" help="" include="BaiLi_InterSV.ubfsvr" type="BE" />

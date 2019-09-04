@@ -56,14 +56,14 @@
             
             </summary>	
         </member>
-        <member name="M:UFIDA.U9.Cust.ZX.BaiLiSV.CreateItemMasterSVImpementStrategy.CreateItemMasterDTO(UFIDA.U9.ISV.Item.ItemMasterDTO,UFIDA.U9.Cust.ZX.BaiLiSV.ItemMasterData,UFIDA.U9.Cust.ZX.BaiLiSV.ContextInfo)">
+        <member name="M:UFIDA.U9.Cust.ZX.BaiLiSV.CreateItemMasterSVImpementStrategy.CreateItemMasterDTO(UFIDA.U9.ISV.Item.ItemMasterDTO,UFIDA.U9.Cust.ZX.BaiLiSV.ItemMasterCustData,UFIDA.U9.Cust.ZX.BaiLiSV.ContextInfo)">
             <summary>
             创建新增料品服务的DTO
             </summary>
             <param name="_itemModule"></param>
             <returns></returns>
         </member>
-        <member name="M:UFIDA.U9.Cust.ZX.BaiLiSV.CreateItemMasterSVImpementStrategy.ModifyItemMasterDTO(UFIDA.U9.CBO.SCM.Item.ItemMaster,UFIDA.U9.Cust.ZX.BaiLiSV.ItemMasterData,UFIDA.U9.Cust.ZX.BaiLiSV.ContextInfo,System.Boolean)">
+        <member name="M:UFIDA.U9.Cust.ZX.BaiLiSV.CreateItemMasterSVImpementStrategy.ModifyItemMasterDTO(UFIDA.U9.CBO.SCM.Item.ItemMaster,UFIDA.U9.Cust.ZX.BaiLiSV.ItemMasterCustData,UFIDA.U9.Cust.ZX.BaiLiSV.ContextInfo,System.Boolean)">
             <summary>
             创建修改料品服务的DTO
             </summary>
@@ -100,11 +100,29 @@
             </summary>
             <value></value>
         </member>
+        <member name="M:MyMVC.XmlSerializerHelper.XmlDeserialize``1(System.String,System.Text.Encoding)">
+            <summary>
+            从XML字符串中反序列化对象.采用缓存提供性能，同时解决了.net2.0到4.0。
+            会因为Net XmlSerializer抛出FileNotFound的内部异常。
+            </summary>
+            <typeparam name="T">结果对象类型</typeparam>
+            <param name="xml">包含对象的XML字符串</param>
+            <param name="encoding">编码方式</param>
+            <returns>反序列化得到的对象</returns>
+        </member>
         <member name="T:UFIDA.U9.Cust.ZX.BaiLiSV.CreateSOSVImpementStrategy">
             <summary>
             Impement Implement
             
             </summary>	
+        </member>
+        <member name="M:UFIDA.U9.Cust.ZX.BaiLiSV.CreateSOSVImpementStrategy.GetProfileValue(System.String)">
+            <summary>
+            获取参数设置
+            </summary>
+            <param name="orgID"></param>
+            <param name="profileCode"></param>
+            <returns></returns>
         </member>
         <member name="T:UFIDA.U9.Cust.ZX.BaiLiSV.CreateBOMSV">
             <summary>
@@ -163,16 +181,6 @@
             Impement Implement
             
             </summary>	
-        </member>
-        <member name="M:MyMVC.XmlSerializerHelper.XmlDeserialize``1(System.String,System.Text.Encoding)">
-            <summary>
-            从XML字符串中反序列化对象.采用缓存提供性能，同时解决了.net2.0到4.0。
-            会因为Net XmlSerializer抛出FileNotFound的内部异常。
-            </summary>
-            <typeparam name="T">结果对象类型</typeparam>
-            <param name="xml">包含对象的XML字符串</param>
-            <param name="encoding">编码方式</param>
-            <returns>反序列化得到的对象</returns>
         </member>
     </members>
 </doc>

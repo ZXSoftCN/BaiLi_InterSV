@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace UFIDA.U9.Cust.ZX.BaiLiSV
 {
-    public class ItemMasterData
+    public class ItemMasterCustData
     {
         [XmlIgnore]
         public bool IsCheck { get; set; }
@@ -20,7 +20,10 @@ namespace UFIDA.U9.Cust.ZX.BaiLiSV
 
         [XmlAttribute]
         public string ItemCode { get; set; }
-        
+
+        [XmlAttribute]
+        public string MainCategoryCode { get; set; }
+
         [XmlAttribute]
         public bool ItemUseVersion { get; set; }
 

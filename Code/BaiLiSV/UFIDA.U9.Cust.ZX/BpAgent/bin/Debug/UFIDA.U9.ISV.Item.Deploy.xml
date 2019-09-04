@@ -1,0 +1,2764 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.ISV.Item.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.ISV.Item.ItemMasterDTOData">
+            <summary>
+            料品数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMasterDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMasterDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.String,System.Boolean,System.String,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Decimal,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Decimal,System.Decimal,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Decimal,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,UFIDA.U9.Base.PropertyTypes.EffectiveData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Byte[],System.Boolean,System.Decimal,System.Decimal,System.String,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.String,System.Decimal,System.Decimal,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Int32,System.String,System.String,System.String,System.String,System.Int64,UFIDA.U9.ISV.Item.ItemMRPInfoDTOData,UFIDA.U9.ISV.Item.ItemSaleInfoDTOData,UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData,UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData,UFIDA.U9.ISV.Item.ItemMFGInfoDTOData,UFIDA.U9.ISV.Item.ItemInvInfoDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.DateTime,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,UFIDA.U9.ISV.Item.EntranceInfoDTOData,System.Collections.Generic.List{UFIDA.U9.ISV.Item.ItemTradeMarkDTOData},System.Boolean,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.Collections.Generic.List{UFIDA.U9.ISV.Item.ItemMasterVersionDTOData})">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_iD">
+            <summary>
+            ID
+            料品数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_bulkUom">
+            <summary>
+            体积单位
+            料品数据传输对象.计量单位.体积单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_standardBatchQty">
+            <summary>
+            标准批量
+            料品数据传输对象.成本区.标准批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_code2">
+            <summary>
+            参考料号2
+            料品数据传输对象.料品.参考料号2
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isGradeControl">
+            <summary>
+            等级控制
+            料品数据传输对象.等级成分.等级控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_catalogNO">
+            <summary>
+            目录编号
+            料品数据传输对象.料品.目录编号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_itemForm">
+            <summary>
+            料品形态
+            料品数据传输对象.料品形态.料品形态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_status">
+            <summary>
+            状态码
+            料品数据传输对象.料品形态.状态码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_statusLastModify">
+            <summary>
+            状态日期
+            料品数据传输对象.状态信息.状态日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isInventoryEnable">
+            <summary>
+            可库存交易
+            料品数据传输对象.料品形态.可库存交易
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isPurchaseEnable">
+            <summary>
+            可采购
+            料品数据传输对象.料品形态.可采购
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isSalesEnable">
+            <summary>
+            可销售
+            料品数据传输对象.料品形态.可销售
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isBuildEnable">
+            <summary>
+            可生产
+            料品数据传输对象.料品形态.可生产
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isOutsideOperationEnable">
+            <summary>
+            可委外
+            料品数据传输对象.料品形态.可委外
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isMRPEnable">
+            <summary>
+            可MRP
+            料品数据传输对象.料品形态.可MRP
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isBOMEnable">
+            <summary>
+            可BOM
+            料品数据传输对象.料品形态.可BOM
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_weight">
+            <summary>
+            库存单位重量
+            料品数据传输对象.计量单位.库存单位重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_itemBulk">
+            <summary>
+            库存单位体积
+            料品数据传输对象.计量单位.库存单位体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_weightUom">
+            <summary>
+            重量单位
+            料品数据传输对象.计量单位.重量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isDualUOM">
+            <summary>
+            双单位
+            料品数据传输对象.计量单位.双单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isMultyUOM">
+            <summary>
+            多单位
+            料品数据传输对象.计量单位.多单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isDualQuantity">
+            <summary>
+            双数量
+            料品数据传输对象.计量单位.双数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_converRatioRule">
+            <summary>
+            转换率策略
+            料品数据传输对象.计量单位.转换率策略
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isVarRatio">
+            <summary>
+            固定转换率
+            料品数据传输对象.计量单位.固定转换率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_inventoryUOM">
+            <summary>
+            库存主单位
+            料品数据传输对象.计量单位.库存主单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_purchaseUOM">
+            <summary>
+            采购单位
+            料品数据传输对象.计量单位.采购单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_salesUOM">
+            <summary>
+            销售单位
+            料品数据传输对象.计量单位.销售单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_manufactureUOM">
+            <summary>
+            生产单位
+            料品数据传输对象.计量单位.生产单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_materialOutUOM">
+            <summary>
+            领料单位
+            料品数据传输对象.计量单位.领料单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_priceUOM">
+            <summary>
+            计价单位
+            料品数据传输对象.计量单位.计价单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_standardCost">
+            <summary>
+            标准成本
+            料品数据传输对象.成本区.标准成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_refrenceCost">
+            <summary>
+            参考成本
+            料品数据传输对象.计量单位.参考成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_internalTransCost">
+            <summary>
+            内部转移成本
+            料品数据传输对象.成本区.内部转移成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_recentlyCost">
+            <summary>
+            最新成本
+            料品数据传输对象.成本区.最新成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_costCurrency">
+            <summary>
+            成本币种
+            料品数据传输对象.计量单位.成本币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isIncludedStockAsset">
+            <summary>
+            存货资产
+            料品数据传输对象.成本区.存货资产
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isIncludedCostCa">
+            <summary>
+            成本卷算
+            料品数据传输对象.成本区.成本卷算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_planCost">
+            <summary>
+            计划价
+            料品数据传输对象.成本区.计划价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_standardGrade">
+            <summary>
+            标准等级
+            料品数据传输对象.等级成分.标准等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_startGrade">
+            <summary>
+            起始等级
+            料品数据传输对象.等级成分.起始等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_endGrade">
+            <summary>
+            结束等级
+            料品数据传输对象.等级成分.结束等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isPotencyControl">
+            <summary>
+            成分控制
+            料品数据传输对象.等级成分.成分控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_standardPotency">
+            <summary>
+            标准成分
+            料品数据传输对象.等级成分.标准成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_startPotency">
+            <summary>
+            起始成分
+            料品数据传输对象.等级成分.起始成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_endPotency">
+            <summary>
+            结束成分
+            料品数据传输对象.等级成分.结束成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_effective">
+            <summary>
+            有效性
+            料品数据传输对象.状态.有效性
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_org">
+            <summary>
+            组织
+            料品数据传输对象.基本信息.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            料品数据传输对象.编码弹性域.实体扩展字段
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_costUOM">
+            <summary>
+            成本单位
+            料品数据传输对象.计量单位.成本单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_picture">
+            <summary>
+            图片
+            料品数据传输对象.料品.图片
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isTrademark">
+            <summary>
+            厂牌管理
+            料品数据传输对象.料品形态.厂牌管理
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_customTaxRate">
+            <summary>
+            海关征税率
+            料品数据传输对象.进出口.海关征税率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_drawbackRate">
+            <summary>
+            退税率
+            料品数据传输对象.进出口.退税率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_customNumber">
+            <summary>
+            海关编码
+            料品数据传输对象.进出口.海关编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isNeedLicence">
+            <summary>
+            需许可证
+            料品数据传输对象.进出口.需许可证
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_needInspect">
+            <summary>
+            需商检
+            料品数据传输对象.进出口.需商检
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isBounded">
+            <summary>
+            保税品
+            料品数据传输对象.保税信息.保税品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_boundedCategory">
+            <summary>
+            保税品类别
+            料品数据传输对象.保税信息.保税品类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_boundedTaxNO">
+            <summary>
+            料品税则号
+            料品数据传输对象.保税信息.料品税则号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_boundedCountToLerance">
+            <summary>
+            保税盘差率
+            料品数据传输对象.保税信息.保税盘差率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_boundedCountTaxRate">
+            <summary>
+            保税应补税率
+            料品数据传输对象.保税信息.保税应补税率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_code1">
+            <summary>
+            参考料号1
+            料品数据传输对象.料品.参考料号1
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_searchCode">
+            <summary>
+            搜索码
+            料品数据传输对象.料品.搜索码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isVersionQtyControl">
+            <summary>
+            版本数量控制
+            料品数据传输对象.料品.版本数量控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_version">
+            <summary>
+            当前版本
+            料品数据传输对象.料品.当前版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isVMIEnable">
+            <summary>
+            VMI标志
+            料品数据传输对象.料品形态.VMI标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_itemFormAttribute">
+            <summary>
+            料品形态属性
+            料品数据传输对象.料品形态.料品形态属性
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_code">
+            <summary>
+            料号
+            料品数据传输对象.料品.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_name">
+            <summary>
+            品名
+            料品数据传输对象.料品.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_versionID">
+            <summary>
+            当前版本ID
+            料品数据传输对象.料品.当前版本ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_mrpInfo">
+            <summary>
+            料品MRP相关信息
+            料品数据传输对象.Misc.料品MRP相关信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_saleInfo">
+            <summary>
+            料品销售相关信息
+            料品数据传输对象.Misc.料品销售相关信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_purchaseInfo">
+            <summary>
+            料品采购相关信息
+            料品数据传输对象.Misc.料品采购相关信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_inspectionInfo">
+            <summary>
+            料品质量相关信息
+            料品数据传输对象.Misc.料品质量相关信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_mfgInfo">
+            <summary>
+            料品生产相关信息
+            料品数据传输对象.Misc.料品生产相关信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_inventoryInfo">
+            <summary>
+            料品库存相关信息
+            料品数据传输对象.Misc.料品库存相关信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_stockCategory">
+            <summary>
+            库存分类
+            料品数据传输对象.分类.库存分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_productionCategory">
+            <summary>
+            生产分类
+            料品数据传输对象.分类.生产分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_saleCategory">
+            <summary>
+            销售分类
+            料品数据传输对象.分类.销售分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_purchaseCategory">
+            <summary>
+            采购分类
+            料品数据传输对象.分类.采购分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_mRPCategory">
+            <summary>
+            MRP分类
+            料品数据传输对象.分类.MRP分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_costCategory">
+            <summary>
+            成本分类
+            料品数据传输对象.分类.成本分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_priceCategory">
+            <summary>
+            价格分类
+            料品数据传输对象.分类.价格分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_assetCategory">
+            <summary>
+            财务分类
+            料品数据传输对象.分类.财务分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_creditCategory">
+            <summary>
+            信用分类
+            料品数据传输对象.分类.信用分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_state">
+            <summary>
+            料品状态
+            料品数据传输对象.状态.料品状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_stateUser">
+            <summary>
+            提交人
+            料品数据传输对象.状态.提交人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_stateTime">
+            <summary>
+            提交日期
+            料品数据传输对象.状态.提交日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_tradeMark">
+            <summary>
+            厂牌
+            料品数据传输对象.Misc.厂牌
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isSpecialItem">
+            <summary>
+            专用料
+            料品数据传输对象.料品形态.专用料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isCanFlowStat">
+            <summary>
+            可流向统计
+            料品数据传输对象.Misc.可流向统计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_inventoryUOMGroup">
+            <summary>
+            库存主单位计量单位组
+            料品数据传输对象.Misc.库存主单位计量单位组
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_inventorySecondUOM">
+            <summary>
+            库存单位
+            料品数据传输对象.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_sPECS">
+            <summary>
+            规格
+            料品数据传输对象.料品.规格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_entranceInfo">
+            <summary>
+            进出口信息
+            料品数据传输对象.Misc.进出口信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_itemTradeMarkInfos">
+            <summary>
+            料品厂牌
+            料品数据传输对象.Misc.料品厂牌
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isCostCalByGrade">
+            <summary>
+            等级影响成本
+            料品数据传输对象.Misc.等级影响成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_isCostCalByPotency">
+            <summary>
+            成分影响成本
+            料品数据传输对象.Misc.成分影响成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_mainItemCategory">
+            <summary>
+            主分类
+            料品数据传输对象.Misc.主分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_itemSource">
+            <summary>
+            来源
+            料品数据传输对象.Misc.来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterDTOData.m_itemMasterVersions">
+            <summary>
+            料品版本
+            料品数据传输对象.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemMasterDTOData.AliasName">
+            <summary>
+            别名
+            料品数据传输对象.料品.别名
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemMasterDTOData.Multi_AliasName">
+            <summary>
+            多语属性: 别名
+            料品数据传输对象.料品.别名
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemMasterDTOData.Description">
+            <summary>
+            描述
+            料品数据传输对象.料品.描述
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemMasterDTOData.Multi_Description">
+            <summary>
+            多语属性: 描述
+            料品数据传输对象.料品.描述
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData">
+            <summary>
+            料品生产相关信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Decimal,System.Boolean,System.Int32,System.Int64,System.Int64,System.Decimal,System.Boolean,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.String,System.Decimal,System.Decimal,System.Int32,System.Int32,System.Boolean,System.Decimal,System.Int32,System.Boolean,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Int32,System.Decimal,System.Decimal,System.Boolean,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Int32,System.Decimal,System.Int32,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_iD">
+            <summary>
+            ID
+            料品生产相关信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品生产相关信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品生产相关信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品生产相关信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品生产相关信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品生产相关信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_issueMaterialBatchQty">
+            <summary>
+            发料倍量
+            料品生产相关信息数据传输对象.发料.发料倍量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isECNControl">
+            <summary>
+            ECN控制
+            料品生产相关信息数据传输对象.BOM.ECN控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_buildQuanSelectType">
+            <summary>
+            生产数量选择
+            料品生产相关信息数据传输对象.生产量.生产数量选择
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_buildBatch">
+            <summary>
+            生产批量
+            料品生产相关信息数据传输对象.生产量.生产批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_buildMultiplier">
+            <summary>
+            生产倍量
+            料品生产相关信息数据传输对象.生产量.生产倍量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_buildShrinkageRate">
+            <summary>
+            生产损耗率
+            料品生产相关信息数据传输对象.生产量.生产损耗率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isOutputControlFlag">
+            <summary>
+            产出控制
+            料品生产相关信息数据传输对象.生产量.产出控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_multiHierarchyExpandFlag">
+            <summary>
+            多层展开层数
+            料品生产相关信息数据传输对象.生产量.多层展开层数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_commonRoutingMaterial">
+            <summary>
+            共享工艺物料
+            料品生产相关信息数据传输对象.BOM.共享工艺物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_commonBOMMaterial">
+            <summary>
+            共享BOM物料
+            料品生产相关信息数据传输对象.BOM.共享BOM物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_lowLevelCode">
+            <summary>
+            低阶码
+            料品生产相关信息数据传输对象.BOM.低阶码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_pictureCode">
+            <summary>
+            图号
+            料品生产相关信息数据传输对象.BOM.图号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_minSupplyMaterialQty">
+            <summary>
+            最小发料量
+            料品生产相关信息数据传输对象.发料.最小发料量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_issueMaterialSafeStockQty">
+            <summary>
+            安全库存量
+            料品生产相关信息数据传输对象.发料.安全库存量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_issueMaterialSafeStockPeriod">
+            <summary>
+            安全库存期
+            料品生产相关信息数据传输对象.发料.安全库存期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_bomControlMode">
+            <summary>
+            BOM控制方式
+            料品生产相关信息数据传输对象.BOM.BOM控制方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isAllowExcessMaterial">
+            <summary>
+            允许超额领料
+            料品生产相关信息数据传输对象.Misc.允许超额领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_standardMaterialScale">
+            <summary>
+            标准超额比例
+            料品生产相关信息数据传输对象.Misc.标准超额比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_purchasePartMakeMode">
+            <summary>
+            采购件自制模式
+            料品生产相关信息数据传输对象.BOM.采购件自制模式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isInheritBomMasterNo">
+            <summary>
+            继承母项番号
+            料品生产相关信息数据传输对象.BOM.继承母项番号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_preOffsetTime">
+            <summary>
+            提前期偏置时间
+            料品生产相关信息数据传输对象.Misc.提前期偏置时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_timeUom">
+            <summary>
+            时间单位
+            料品生产相关信息数据传输对象.Misc.时间单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_productDepartment">
+            <summary>
+            生产部门
+            料品生产相关信息数据传输对象.Misc.生产部门
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isByproduct">
+            <summary>
+            贵重金属
+            料品生产相关信息数据传输对象.Misc.贵重金属
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_produceWasteRateType">
+            <summary>
+            生产损耗率类型
+            料品生产相关信息数据传输对象.Misc.生产损耗率类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_immovableWaste">
+            <summary>
+            固定损耗
+            料品生产相关信息数据传输对象.Misc.固定损耗
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_fluctuantWaste">
+            <summary>
+            变动损耗
+            料品生产相关信息数据传输对象.Misc.变动损耗
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isMixLotControl">
+            <summary>
+            混批控制
+            料品生产相关信息数据传输对象.Misc.混批控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_operateType">
+            <summary>
+            排产方式
+            料品生产相关信息数据传输对象.Misc.排产方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_overFinishType">
+            <summary>
+            可超量完工类型
+            料品生产相关信息数据传输对象.Misc.可超量完工类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_overQty">
+            <summary>
+            完工超额量
+            料品生产相关信息数据传输对象.Misc.完工超额量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_overRate">
+            <summary>
+            完工超额比例
+            料品生产相关信息数据传输对象.Misc.完工超额比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_isSueOverType">
+            <summary>
+            备料超额类型
+            料品生产相关信息数据传输对象.Misc.备料超额类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_standardMaterialQty">
+            <summary>
+            备料标准超额量
+            料品生产相关信息数据传输对象.Misc.备料标准超额量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_defaultExpandLevel">
+            <summary>
+            默认展开阶数
+            料品生产相关信息数据传输对象.Misc.默认展开阶数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMFGInfoDTOData.m_kanbanDrive">
+            <summary>
+            看板驱动
+            料品生产相关信息数据传输对象.Misc.看板驱动
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData">
+            <summary>
+            料品采购相关信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.String,System.Int32,System.Int32,System.Int32,UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData,System.Int32,System.Int64,System.Int32,System.Int32,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Decimal,System.Boolean,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32,System.Decimal,System.Int32,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Int64,System.Boolean,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_iD">
+            <summary>
+            ID
+            料品采购相关信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品采购相关信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品采购相关信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品采购相关信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品采购相关信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品采购相关信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isUseApproveSupplier">
+            <summary>
+            核准供货商
+            料品采购相关信息数据传输对象.采购.核准供货商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_supplier">
+            <summary>
+            主供应商
+            料品采购相关信息数据传输对象.采购.主供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_purchaseTaxSchedule">
+            <summary>
+            税组合
+            料品采购相关信息数据传输对象.采购.税组合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isNeedRequest">
+            <summary>
+            请购
+            料品采购相关信息数据传输对象.采购.请购
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isNeedInquire">
+            <summary>
+            询价
+            料品采购相关信息数据传输对象.询价.询价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_inquireRule">
+            <summary>
+            询价策略
+            料品采购相关信息数据传输对象.询价.询价策略
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_inquireFixedPeriod">
+            <summary>
+            间隔期
+            料品采购相关信息数据传输对象.询价.间隔期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_purchaseQuotaMode">
+            <summary>
+            配额方式
+            料品采购相关信息数据传输对象.询价.配额方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_purchaseBatchQty">
+            <summary>
+            采购倍量
+            料品采购相关信息数据传输对象.采购.采购倍量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_maxlimitCurrency">
+            <summary>
+            限价币种
+            料品采购相关信息数据传输对象.采购.限价币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_maxLimitPrice">
+            <summary>
+            最高限价
+            料品采购相关信息数据传输对象.采购.最高限价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isPriceByQuality">
+            <summary>
+            以质论价
+            料品采购相关信息数据传输对象.采购.以质论价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_purchaseDepartment">
+            <summary>
+            部门
+            料品采购相关信息数据传输对象.采购.部门
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_buyer">
+            <summary>
+            业务员
+            料品采购相关信息数据传输对象.采购.业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_receiptRule">
+            <summary>
+            收货原则
+            料品采购相关信息数据传输对象.收货.收货原则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_chargeAssignMode">
+            <summary>
+            费用分配
+            料品采购相关信息数据传输对象.收货.费用分配
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_uNNumber">
+            <summary>
+            联合国码
+            料品采购相关信息数据传输对象.收货.联合国码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_dangerType">
+            <summary>
+            危险类别
+            料品采购相关信息数据传输对象.收货.危险类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_inquireCount">
+            <summary>
+            询价厂商数
+            料品采购相关信息数据传输对象.询价.询价厂商数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_receiptType">
+            <summary>
+            收货方式
+            料品采购相关信息数据传输对象.收货.收货方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            料品采购相关信息数据传输对象.其他.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_statisticPeriod">
+            <summary>
+            配额统计期间
+            料品采购相关信息数据传输对象.询价.配额统计期间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_fixedAssetsCategory">
+            <summary>
+            固定资产种类
+            料品采购相关信息数据传输对象.收货.固定资产种类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_chargeProcessMode">
+            <summary>
+            费用料处理
+            料品采购相关信息数据传输对象.收货.费用料处理
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_priceSource">
+            <summary>
+            取价来源
+            料品采购相关信息数据传输对象.Misc.取价来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isTotalAgreementPurchase">
+            <summary>
+            一揽子协议采购
+            料品采购相关信息数据传输对象.Misc.一揽子协议采购
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_statRule">
+            <summary>
+            统计期间规则
+            料品采购相关信息数据传输对象.Misc.统计期间规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_budgetControlType">
+            <summary>
+            预算控制方式
+            料品采购相关信息数据传输对象.Misc.预算控制方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_quotaLimitValue">
+            <summary>
+            配额阀值
+            料品采购相关信息数据传输对象.Misc.配额阀值
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_receiptModeAllowModify">
+            <summary>
+            收货程序可改
+            料品采购相关信息数据传输对象.Misc.收货程序可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_receiptMode">
+            <summary>
+            收货程序
+            料品采购相关信息数据传输对象.Misc.收货程序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_maxLimitPriceSource">
+            <summary>
+            最高限价来源
+            料品采购相关信息数据传输对象.Misc.最高限价来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isReceiptSourceControl">
+            <summary>
+            进货货源控管
+            料品采购相关信息数据传输对象.Misc.进货货源控管
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isReturnSourceControl">
+            <summary>
+            退货货源控管
+            料品采购相关信息数据传输对象.Misc.退货货源控管
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_returnPriceSource">
+            <summary>
+            退货取价来源
+            料品采购相关信息数据传输对象.Misc.退货取价来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_minRcvQty">
+            <summary>
+            最小叫货量
+            料品采购相关信息数据传输对象.Misc.最小叫货量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_quotaSupplier">
+            <summary>
+            配额供应商
+            料品采购相关信息数据传输对象.Misc.配额供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isSupplierConfirm">
+            <summary>
+            供应商确认
+            料品采购相关信息数据传输对象.Misc.供应商确认
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_pUTradePath">
+            <summary>
+            采购贸易路径
+            料品采购相关信息数据传输对象.Misc.采购贸易路径
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isPUTradePathModify">
+            <summary>
+            采购贸易路径可改
+            料品采购相关信息数据传输对象.Misc.采购贸易路径可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_pURtnTradePath">
+            <summary>
+            采购退货贸易路径
+            料品采购相关信息数据传输对象.Misc.采购退货贸易路径
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isPURtnTradePathModify">
+            <summary>
+            采购退货贸易路径可改
+            料品采购相关信息数据传输对象.Misc.采购退货贸易路径可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isConfirmOnFinished">
+            <summary>
+            可事后定价
+            料品采购相关信息数据传输对象.Misc.可事后定价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_rFQType">
+            <summary>
+            询价类
+            料品采购相关信息数据传输对象.Misc.询价类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isControlPOItemFree">
+            <summary>
+            订货控制自由项
+            料品采购相关信息数据传输对象.Misc.订货控制自由项
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemPurchaseInfoDTOData.m_isControlRCVItemFree">
+            <summary>
+            收货控制自由项
+            料品采购相关信息数据传输对象.Misc.收货控制自由项
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemInvInfoDTOData">
+            <summary>
+            料品库存相关信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Int32,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int64,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int32,System.Boolean,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int64,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.DateTime,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int32,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Decimal,System.Boolean,System.Int64,System.Boolean,System.Boolean,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_iD">
+            <summary>
+            ID
+            料品库存相关信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品库存相关信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品库存相关信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品库存相关信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品库存相关信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品库存相关信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isKitMustWholeSet">
+            <summary>
+            成套收发货
+            料品库存相关信息数据传输对象.库存控制.成套收发货
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_barcode">
+            <summary>
+            条码
+            料品库存相关信息数据传输对象.条码序列号.条码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isLimitWarehouse">
+            <summary>
+            存储地点限制
+            料品库存相关信息数据传输对象.存储地点.存储地点限制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_warehouse">
+            <summary>
+            存储地点
+            料品库存相关信息数据传输对象.存储地点.存储地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isLimitBin">
+            <summary>
+            库位限制
+            料品库存相关信息数据传输对象.存储地点.库位限制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_bin">
+            <summary>
+            库位
+            料品库存相关信息数据传输对象.存储地点.库位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isReservable">
+            <summary>
+            可预留
+            料品库存相关信息数据传输对象.库存控制.可预留
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_reserveDays">
+            <summary>
+            预留天数
+            料品库存相关信息数据传输对象.库存控制.预留天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isNegativeInventory">
+            <summary>
+            允许负库存
+            料品库存相关信息数据传输对象.库存控制.允许负库存
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_warehouseManager">
+            <summary>
+            业务员
+            料品库存相关信息数据传输对象.存储地点.业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_aTPRule">
+            <summary>
+            ATP规则
+            料品库存相关信息数据传输对象.库存控制.ATP规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_pickingRule">
+            <summary>
+            拣货规则
+            料品库存相关信息数据传输对象.存储地点.拣货规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_purchaseControlMode">
+            <summary>
+            采购控制方法
+            料品库存相关信息数据传输对象.库存控制.采购控制方法
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_turnOverRate">
+            <summary>
+            周转率
+            料品库存相关信息数据传输对象.库存控制.周转率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_turnOverDays">
+            <summary>
+            周转天数
+            料品库存相关信息数据传输对象.库存控制.周转天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_avgUsageQtyCalDays">
+            <summary>
+            平均用量天数
+            料品库存相关信息数据传输对象.库存控制.平均用量天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_avgUsageQty">
+            <summary>
+            平均用量
+            料品库存相关信息数据传输对象.库存控制.平均用量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_barcodeMakeMode">
+            <summary>
+            条码模式
+            料品库存相关信息数据传输对象.条码序列号.条码模式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isStructBarcode">
+            <summary>
+            结构化条码
+            料品库存相关信息数据传输对象.条码序列号.结构化条码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_barcodeTrackMode">
+            <summary>
+            追踪方式
+            料品库存相关信息数据传输对象.条码序列号.追踪方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_barCodeRule">
+            <summary>
+            条码规则
+            料品库存相关信息数据传输对象.条码序列号.条码规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isShipmentOverdueLot">
+            <summary>
+            出过期批号
+            料品库存相关信息数据传输对象.条码序列号.出过期批号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_referrenceCost">
+            <summary>
+            参考成本
+            料品库存相关信息数据传输对象.库存.参考成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_referrenceCostCurrency">
+            <summary>
+            币种
+            料品库存相关信息数据传输对象.库存.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_putawayRule">
+            <summary>
+            理货规则
+            料品库存相关信息数据传输对象.存储地点.理货规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_inventoryPlanningMethod">
+            <summary>
+            规划方法
+            料品库存相关信息数据传输对象.库存规划.规划方法
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_inventoryMaxLimitQty">
+            <summary>
+            库存上限
+            料品库存相关信息数据传输对象.库存规划.库存上限
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_inventoryMinLimitQty">
+            <summary>
+            库存下限
+            料品库存相关信息数据传输对象.库存规划.库存下限
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_fixPeriod">
+            <summary>
+            固定期间(天)
+            料品库存相关信息数据传输对象.库存规划.固定期间(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_nextSupplyDate">
+            <summary>
+            下次补货日
+            料品库存相关信息数据传输对象.库存规划.下次补货日
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_safetyStockType">
+            <summary>
+            安全存量法
+            料品库存相关信息数据传输对象.库存规划.安全存量法
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_safetyStockPeriod">
+            <summary>
+            安全库存期
+            料品库存相关信息数据传输对象.库存规划.安全库存期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_safetyStockRate">
+            <summary>
+            安全库存量百分比
+            料品库存相关信息数据传输对象.库存规划.安全库存量百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_safetyStockQty">
+            <summary>
+            安全库存量
+            料品库存相关信息数据传输对象.库存规划.安全库存量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_wastageRate">
+            <summary>
+            损耗率
+            料品库存相关信息数据传输对象.库存规划.损耗率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_orderCost">
+            <summary>
+            订单成本
+            料品库存相关信息数据传输对象.库存规划.订单成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_inventoryCostRate">
+            <summary>
+            持货成本百分比
+            料品库存相关信息数据传输对象.库存规划.持货成本百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_inventoryPlanTime">
+            <summary>
+            规划时机
+            料品库存相关信息数据传输对象.库存规划.规划时机
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_economyOrderQty">
+            <summary>
+            经济订购量
+            料品库存相关信息数据传输对象.库存规划.经济订购量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_timeBucket">
+            <summary>
+            时格
+            料品库存相关信息数据传输对象.库存规划.时格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_reorderQty">
+            <summary>
+            再订货量
+            料品库存相关信息数据传输对象.库存规划.再订货量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_lotControlMode">
+            <summary>
+            批号控制
+            料品库存相关信息数据传输对象.批号序列号.批号控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_lotParam">
+            <summary>
+            批号参数
+            料品库存相关信息数据传输对象.批号序列号.批号参数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_snParam">
+            <summary>
+            序列号参数
+            料品库存相关信息数据传输对象.批号序列号.序列号参数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_lotValidDate">
+            <summary>
+            批号有效期天数
+            料品库存相关信息数据传输对象.批号序列号.批号有效期天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_invToPurMode">
+            <summary>
+            规划转采购方式
+            料品库存相关信息数据传输对象.库存规划.规划转采购方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isIncSerialNo">
+            <summary>
+            盘序列号
+            料品库存相关信息数据传输对象.盘点方案.盘序列号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isIncZeroQty">
+            <summary>
+            零账存盘点
+            料品库存相关信息数据传输对象.盘点方案.零账存盘点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_apprDiffRule">
+            <summary>
+            核准允差原则
+            料品库存相关信息数据传输对象.盘点方案.核准允差原则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_apprDiffQty">
+            <summary>
+            允差数量
+            料品库存相关信息数据传输对象.盘点方案.允差数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_apprDiffQtyRate">
+            <summary>
+            数量允差比
+            料品库存相关信息数据传输对象.盘点方案.数量允差比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_apprDiffAmt">
+            <summary>
+            允差金额
+            料品库存相关信息数据传输对象.盘点方案.允差金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_apprDiffAmtRate">
+            <summary>
+            金额允差比
+            料品库存相关信息数据传输对象.盘点方案.金额允差比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_supplyMethod">
+            <summary>
+            补货方法
+            料品库存相关信息数据传输对象.库存规划.补货方法
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_reserveMode">
+            <summary>
+            预留方式
+            料品库存相关信息数据传输对象.Misc.预留方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isCanalBinUnMarkCheck">
+            <summary>
+            渠道库存滞销检查
+            料品库存相关信息数据传输对象.Misc.渠道库存滞销检查
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isRequiredShipperSupply">
+            <summary>
+            按需求货主补货
+            料品库存相关信息数据传输对象.Misc.按需求货主补货
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_standardBox">
+            <summary>
+            库存单位标箱
+            料品库存相关信息数据传输对象.Misc.库存单位标箱
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isBalanceByProject">
+            <summary>
+            项目存货核算
+            料品库存相关信息数据传输对象.库存控制.项目存货核算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_deliveryPriceGroup">
+            <summary>
+            配送计价分组
+            料品库存相关信息数据传输对象.Misc.配送计价分组
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_convertRatio">
+            <summary>
+            转换率加权
+            料品库存相关信息数据传输对象.Misc.转换率加权
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isLotOverdueTransOut">
+            <summary>
+            过期批号领料/出货
+            料品库存相关信息数据传输对象.Misc.过期批号领料/出货
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_lotOverdueDays">
+            <summary>
+            批号允许过期天数
+            料品库存相关信息数据传输对象.Misc.批号允许过期天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isInvCalculateByTradeMark">
+            <summary>
+            厂牌存货核算
+            料品库存相关信息数据传输对象.Misc.厂牌存货核算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isInvCalculateBySeiban">
+            <summary>
+            番号存货核算
+            料品库存相关信息数据传输对象.Misc.番号存货核算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isInvCalculateByVersion">
+            <summary>
+            版本存货核算
+            料品库存相关信息数据传输对象.Misc.版本存货核算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInvInfoDTOData.m_isCostCalByLot">
+            <summary>
+            批号影响成本
+            料品库存相关信息数据传输对象.Misc.批号影响成本
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData">
+            <summary>
+            料品销售相关信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Decimal,System.Boolean,System.Int64,System.Decimal,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Boolean,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_iD">
+            <summary>
+            ID
+            料品销售相关信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品销售相关信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品销售相关信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品销售相关信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品销售相关信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品销售相关信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_salesDepartment">
+            <summary>
+            部门
+            料品销售相关信息数据传输对象.基本.部门
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_salesPerson">
+            <summary>
+            业务员
+            料品销售相关信息数据传输对象.基本.业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_minSaleQty">
+            <summary>
+            最小订购量
+            料品销售相关信息数据传输对象.基本.最小订购量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_maxSaleQty">
+            <summary>
+            最大订货量
+            料品销售相关信息数据传输对象.基本.最大订货量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_saleBatchQty">
+            <summary>
+            订货批量
+            料品销售相关信息数据传输对象.基本.订货批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_minLimitPrice">
+            <summary>
+            最低限价
+            料品销售相关信息数据传输对象.限价.最低限价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_maxLimitPrice">
+            <summary>
+            最高限价
+            料品销售相关信息数据传输对象.限价.最高限价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_saleLimitCurrency">
+            <summary>
+            限价币种
+            料品销售相关信息数据传输对象.限价.限价币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_saleTaxSchedule">
+            <summary>
+            税组合
+            料品销售相关信息数据传输对象.基本.税组合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isATPCheck">
+            <summary>
+            ATP检查
+            料品销售相关信息数据传输对象.基本.ATP检查
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isReturnable">
+            <summary>
+            可退换
+            料品销售相关信息数据传输对象.退货.可退换
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isRMAAllowModify">
+            <summary>
+            退货可改
+            料品销售相关信息数据传输对象.退货.退货可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isReturnCheckLot">
+            <summary>
+            退货检查批号
+            料品销售相关信息数据传输对象.退货.退货检查批号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isReturnCheckSN">
+            <summary>
+            退货检查序列号
+            料品销售相关信息数据传输对象.退货.退货检查序列号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isPriceProtectSN">
+            <summary>
+            检查序列号
+            料品销售相关信息数据传输对象.退货.检查序列号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_supplySource">
+            <summary>
+            供应来源
+            料品销售相关信息数据传输对象.供应.供应来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_supplyOrg">
+            <summary>
+            供应组织
+            料品销售相关信息数据传输对象.供应.供应组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_supplier">
+            <summary>
+            供应商
+            料品销售相关信息数据传输对象.供应.供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_demandTransType">
+            <summary>
+            需求转化类型
+            料品销售相关信息数据传输对象.供应.需求转化类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_limitPriceMode">
+            <summary>
+            限价方式
+            料品销售相关信息数据传输对象.限价.限价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_limitPriceBy">
+            <summary>
+            限价依据
+            料品销售相关信息数据传输对象.限价.限价依据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_minLimitPriceRate">
+            <summary>
+            最低百分比
+            料品销售相关信息数据传输对象.限价.最低百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_maxLimitPriceRate">
+            <summary>
+            最高百分比
+            料品销售相关信息数据传输对象.限价.最高百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_saleCurrency">
+            <summary>
+            销售币种
+            料品销售相关信息数据传输对象.基本.销售币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_aTPRule">
+            <summary>
+            ATP规则
+            料品销售相关信息数据传输对象.基本.ATP规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_shipmentWarehouse">
+            <summary>
+            出货地点
+            料品销售相关信息数据传输对象.基本.出货地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_grossRate">
+            <summary>
+            毛利率
+            料品销售相关信息数据传输对象.Misc.毛利率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isAvailableQtyCheck">
+            <summary>
+            可用量检查
+            料品销售相关信息数据传输对象.Misc.可用量检查
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_availableQtyRule">
+            <summary>
+            可用量规则
+            料品销售相关信息数据传输对象.Misc.可用量规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_saleMinDiscount">
+            <summary>
+            销售最低扣率
+            料品销售相关信息数据传输对象.Misc.销售最低扣率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_familyLayer">
+            <summary>
+            系列件层级
+            料品销售相关信息数据传输对象.Misc.系列件层级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_familyAdscription">
+            <summary>
+            所属系列件
+            料品销售相关信息数据传输对象.Misc.所属系列件
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isCTP">
+            <summary>
+            CTP检查
+            料品销售相关信息数据传输对象.Misc.CTP检查
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_bOMOrg">
+            <summary>
+            BOM组织
+            料品销售相关信息数据传输对象.Misc.BOM组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_minOrderQtyCheckType">
+            <summary>
+            最低叫货量检查方式
+            料品销售相关信息数据传输对象.Misc.最低叫货量检查方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isCalLandCarriageFee">
+            <summary>
+            是否计算陆运费
+            料品销售相关信息数据传输对象.Misc.是否计算陆运费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_itemForInvoice">
+            <summary>
+            开票物料
+            料品销售相关信息数据传输对象.Misc.开票物料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_nameForInvoice">
+            <summary>
+            开票品名
+            料品销售相关信息数据传输对象.Misc.开票品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_sDTradePath">
+            <summary>
+            销售贸易路径
+            料品销售相关信息数据传输对象.Misc.销售贸易路径
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isSDTradePathModify">
+            <summary>
+            销售贸易路径可改
+            料品销售相关信息数据传输对象.Misc.销售贸易路径可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_sDRtnTradePath">
+            <summary>
+            销售退货贸易路径
+            料品销售相关信息数据传输对象.Misc.销售退货贸易路径
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_isSDRtnTradePathModify">
+            <summary>
+            销售退货贸易路径可改
+            料品销售相关信息数据传输对象.Misc.销售退货贸易路径可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemSaleInfoDTOData.m_salePriceList">
+            <summary>
+            价目表
+            料品销售相关信息数据传输对象.Misc.价目表
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData">
+            <summary>
+            料品质量相关信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.String,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int32,System.Int32,System.Int64,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_iD">
+            <summary>
+            ID
+            料品质量相关信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品质量相关信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品质量相关信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品质量相关信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品质量相关信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品质量相关信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_receiptInspectRule">
+            <summary>
+            进货质检．版本
+            料品质量相关信息数据传输对象.进货.进货质检．版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_receiptInspectRuleVer">
+            <summary>
+            进货质检版本
+            料品质量相关信息数据传输对象.进货.进货质检版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_inStockInspectRule">
+            <summary>
+            在库质检．版本
+            料品质量相关信息数据传输对象.在库.在库质检．版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_inStockInspectRuleVer">
+            <summary>
+            在库质检版本
+            料品质量相关信息数据传输对象.在库.在库质检版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_saleReturnCheckupRule">
+            <summary>
+            退货质检．版本 
+            料品质量相关信息数据传输对象.退货.退货质检．版本 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_saleReturnCheckupRuleVer">
+            <summary>
+            退货质检版本
+            料品质量相关信息数据传输对象.退货.退货质检版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_buildCompleteCheckUpRule">
+            <summary>
+            完工质检．版本
+            料品质量相关信息数据传输对象.完工.完工质检．版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_buildCompleteCheckUpRuleVer">
+            <summary>
+            完工质检版本
+            料品质量相关信息数据传输对象.完工.完工质检版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_shipmentInspectRule">
+            <summary>
+            其他质检．版本
+            料品质量相关信息数据传输对象.其他.其他质检．版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_shipmentInspectRuleVer">
+            <summary>
+            其他质检版本
+            料品质量相关信息数据传输对象.其他.其他质检版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_destroyInspectQty">
+            <summary>
+            破坏性检验数
+            料品质量相关信息数据传输对象.其他.破坏性检验数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_inspectPeriod">
+            <summary>
+            质检周期（天）
+            料品质量相关信息数据传输对象.Misc.质检周期（天）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_shipInspectRule">
+            <summary>
+            出货质检．版本
+            料品质量相关信息数据传输对象.Misc.出货质检．版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.m_shipInspectRuleVer">
+            <summary>
+            出货质检版本
+            料品质量相关信息数据传输对象.Misc.出货质检版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.QualityDescription">
+            <summary>
+            质量描述
+            料品质量相关信息数据传输对象.其他.质量描述
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemInspectionInfoDTOData.Multi_QualityDescription">
+            <summary>
+            多语属性: 质量描述
+            料品质量相关信息数据传输对象.其他.质量描述
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.EntranceInfoDTOData">
+            <summary>
+            进出口信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.EntranceInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.EntranceInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Int32,System.Int32,System.Boolean,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_iD">
+            <summary>
+            ID
+            进出口信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            进出口信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            进出口信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            进出口信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            进出口信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            进出口信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_tradeType">
+            <summary>
+            贸易方式
+            进出口信息数据传输对象.Misc.贸易方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_packType">
+            <summary>
+            包装方式
+            进出口信息数据传输对象.Misc.包装方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_isWhole">
+            <summary>
+            是否整箱
+            进出口信息数据传输对象.Misc.是否整箱
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_cIQCdoe">
+            <summary>
+            海关编码
+            进出口信息数据传输对象.Misc.海关编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_decriptionByChinese">
+            <summary>
+            货描中文
+            进出口信息数据传输对象.Misc.货描中文
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.EntranceInfoDTOData.m_decriptionByEnglish">
+            <summary>
+            货描英文
+            进出口信息数据传输对象.Misc.货描英文
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData">
+            <summary>
+            料品MRP相关信息数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Int32,System.Int32,System.Boolean,System.Int32,System.Decimal,System.Boolean,System.Int32,System.Decimal,System.Int32,System.Int32,System.Decimal,System.Int32,System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_iD">
+            <summary>
+            ID
+            料品MRP相关信息数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品MRP相关信息数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品MRP相关信息数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品MRP相关信息数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品MRP相关信息数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品MRP相关信息数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_mRPPlanningType">
+            <summary>
+            计划方法
+            料品MRP相关信息数据传输对象.MRP方法.计划方法
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_forecastContorlType">
+            <summary>
+            预测控制
+            料品MRP相关信息数据传输对象.MRP方法.预测控制
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_isTraceRequirement">
+            <summary>
+            需求追溯
+            料品MRP相关信息数据传输对象.MRP方法.需求追溯
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_rearrangeTimeFence">
+            <summary>
+            重排时界
+            料品MRP相关信息数据传输对象.MRP方法.重排时界
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_overRunRatio">
+            <summary>
+            超量百分比
+            料品MRP相关信息数据传输对象.MRP方法.超量百分比
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_isReduceMPS">
+            <summary>
+            减少MPS
+            料品MRP相关信息数据传输对象.MRP方法.减少MPS
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_planningTimeFence">
+            <summary>
+            计划时界类型
+            料品MRP相关信息数据传输对象.计划时界.计划时界类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_planningTimeFenceDays">
+            <summary>
+            计划时界天数
+            料品MRP相关信息数据传输对象.计划时界.计划时界天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_demandTimeFenceRuleType">
+            <summary>
+            需求时界原则
+            料品MRP相关信息数据传输对象.需求时界.需求时界原则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_demandTimeFence">
+            <summary>
+            需求时界类型
+            料品MRP相关信息数据传输对象.需求时界.需求时界类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_demandTimeFenceDays">
+            <summary>
+            需求时界天数
+            料品MRP相关信息数据传输对象.需求时界.需求时界天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_releaseTimeFence">
+            <summary>
+            发放时界类型
+            料品MRP相关信息数据传输对象.发放时界.发放时界类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_releaseTimeFenceDays">
+            <summary>
+            发放时界天数
+            料品MRP相关信息数据传输对象.发放时界.发放时界天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_planer">
+            <summary>
+            默认计划员
+            料品MRP相关信息数据传输对象.发放时界.默认计划员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_planningTimeFenceRuleType">
+            <summary>
+            计划时界原则
+            料品MRP相关信息数据传输对象.计划时界.计划时界原则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_purForwardProcessLT">
+            <summary>
+            采购预提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.采购预提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_purProcessLT">
+            <summary>
+            采购处理提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.采购处理提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_purBackwardProcessLT">
+            <summary>
+            采购后提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.采购后提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_firmPlannedMOTimeFence">
+            <summary>
+            计划订单天数
+            料品MRP相关信息数据传输对象.发放时界.计划订单天数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_fixedLT">
+            <summary>
+            固定提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.固定提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_varietyLT">
+            <summary>
+            变动提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.变动提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_sumManufactureLT">
+            <summary>
+            制造提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.制造提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_sumLT">
+            <summary>
+            汇总提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.汇总提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_lTBatch">
+            <summary>
+            提前期批量
+            料品MRP相关信息数据传输对象.前置时间.提前期批量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_saleForwardProcessLT">
+            <summary>
+            销售预提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.销售预提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_saleProcessLT">
+            <summary>
+            销售处理提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.销售处理提前期(天)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMRPInfoDTOData.m_saleBackwardProcessLT">
+            <summary>
+            销售后提前期(天)
+            料品MRP相关信息数据传输对象.前置时间.销售后提前期(天)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData">
+            <summary>
+            料品厂牌数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData.#ctor(System.Int32,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.Base.FlexField.DescFlexField.DescFlexSegmentsData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData.m_operateType">
+            <summary>
+            操作方式
+            料品厂牌数据传输对象.Misc.操作方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData.m_tradeMark">
+            <summary>
+            厂牌
+            料品厂牌数据传输对象.Misc.厂牌
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData.m_oldTradeMark">
+            <summary>
+            修改前厂牌
+            料品厂牌数据传输对象.Misc.修改前厂牌
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemTradeMarkDTOData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            料品厂牌数据传输对象.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.DeleteItemMasterDTOData">
+            <summary>
+            删除料品DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.DeleteItemMasterDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.DeleteItemMasterDTOData.#ctor(UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,System.String,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.DeleteItemMasterDTOData.m_org">
+            <summary>
+            组织
+            删除料品DTO.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.DeleteItemMasterDTOData.m_code">
+            <summary>
+            料号
+            删除料品DTO.Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.DeleteItemMasterDTOData.m_iD">
+            <summary>
+            料品ID
+            删除料品DTO.Misc.料品ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.QueryItemDTOData">
+            <summary>
+            查询料品数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.QueryItemDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.QueryItemDTOData.#ctor(UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData,UFIDA.U9.CBO.Pub.Controller.CommonArchiveDataDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.QueryItemDTOData.m_org">
+            <summary>
+            组织
+            查询料品数据传输对象.Misc.组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.QueryItemDTOData.m_itemMaster">
+            <summary>
+            料品
+            查询料品数据传输对象.Misc.料品
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData">
+            <summary>
+            料品版本数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.String,System.String,System.String,System.DateTime,System.Decimal,System.Decimal,UFIDA.U9.Base.PropertyTypes.EffectiveData,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_iD">
+            <summary>
+            ID
+            料品版本数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_createdOn">
+            <summary>
+            创建时间
+            料品版本数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_createdBy">
+            <summary>
+            创建人
+            料品版本数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            料品版本数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            料品版本数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            料品版本数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_version">
+            <summary>
+            版本号
+            料品版本数据传输对象.Misc.版本号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_eCNNO">
+            <summary>
+            ECN单号
+            料品版本数据传输对象.Misc.ECN单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_eCNDate">
+            <summary>
+            ECN日期
+            料品版本数据传输对象.Misc.ECN日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_fromQty">
+            <summary>
+            从数量
+            料品版本数据传输对象.Misc.从数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_toQty">
+            <summary>
+            到数量
+            料品版本数据传输对象.Misc.到数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_effective">
+            <summary>
+            有效性
+            料品版本数据传输对象.Misc.有效性
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.m_operateType">
+            <summary>
+            操作方式
+            料品版本数据传输对象.Misc.操作方式
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.Description">
+            <summary>
+            描述
+            料品版本数据传输对象.Misc.描述
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ItemMasterVersionDTOData.Multi_Description">
+            <summary>
+            多语属性: 描述
+            料品版本数据传输对象.Misc.描述
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ISVItemAfterModifyEventData">
+            <summary>
+            EntityData: ISV料品修改后事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ISVItemAfterModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ISVItemAfterModifyEventData.Item">
+            <summary>
+            料品
+            ISV料品修改后事件.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ISVItemAfterModifyEventData.ItemDTO">
+            <summary>
+            料品DTO
+            ISV料品修改后事件.Misc.料品DTO
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.ISVItemAfterCreateEventData">
+            <summary>
+            EntityData: ISV料品创建后事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.ISV.Item.ISVItemAfterCreateEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ISVItemAfterCreateEventData.Item">
+            <summary>
+            料品
+            ISV料品创建后事件.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.ISVItemAfterCreateEventData.ItemDTO">
+            <summary>
+            料品DTO
+            ISV料品创建后事件.Misc.料品DTO
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.ISV.Item.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.ISV.Item.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

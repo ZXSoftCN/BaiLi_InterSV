@@ -70,7 +70,7 @@
                     rltItem.BOMType = bomMaster.BOMType;
                     rltItem.BOMVersionCode = bomMaster.BOMVersionCode;
                     result.BomMasters.Add(rltItem);
-                    
+
                     //MO.MO.MO.EntityList lstMO = MO.MO.MO.Finder.FindAll("ItemMaster.Code = @MOItemMaster and DocState !=3 ", new OqlParam[1] { new OqlParam(bomMaster.ItemMasterCode) });
                     MO.MO.MO.EntityList lstMO = MO.MO.MO.Finder.FindAll("ItemMaster.Code = @MOItemMaster and BOMVersion.VersionCode = @BOMVersionCode and DocState !=3 ",
                         new OqlParam[2] { new OqlParam(bomMaster.ItemMasterCode), new OqlParam(bomMaster.BOMVersionCode) });
@@ -126,7 +126,7 @@
                 strbResult.Append(XmlSerializerHelper.XmlSerialize<MOResult>(result, Encoding.Unicode));
                 return strbResult.ToString();
             }
-		}		
+		}
 	}
 
 	#endregion

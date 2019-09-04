@@ -58,6 +58,36 @@
         <Private>False</Private>
    </Reference> 
 
+    <Reference Include="UFIDA.U9.Base.BaseBE.Deploy"	>
+	<HintPath>.\..\..\..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Component\\UBF\\UFIDA.U9.Base.BaseBE.Deploy.dll</HintPath>
+      <Name>UFIDA.U9.Base.BaseBE.Deploy</Name>     
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+
+    <Reference Include="UFIDA.U9.CBO.PubBE.Deploy"	>
+	<HintPath>.\..\..\..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Component\\App\\UFIDA.U9.CBO.PubBE.Deploy.dll</HintPath>
+      <Name>UFIDA.U9.CBO.PubBE.Deploy</Name>     
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+
+    <Reference Include="UFIDA.U9.ISV.Item.Deploy"	>
+	<HintPath>.\..\..\..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Component\\App\\UFIDA.U9.ISV.Item.Deploy.dll</HintPath>
+      <Name>UFIDA.U9.ISV.Item.Deploy</Name>     
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+
+    <Reference Include="UFIDA.U9.ISV.MFG.MFGSV.Deploy"	>
+	<HintPath>.\..\..\..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Component\\App\\UFIDA.U9.ISV.MFG.MFGSV.Deploy.dll</HintPath>
+      <Name>UFIDA.U9.ISV.MFG.MFGSV.Deploy</Name>     
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+
+    <Reference Include="UFIDA.U9.MO.MOBE.Deploy"	>
+	<HintPath>.\..\..\..\..\..\..\..\..\..\yonyou\UBFV28\U9.VOB.Product.Component\\App\\UFIDA.U9.MO.MOBE.Deploy.dll</HintPath>
+      <Name>UFIDA.U9.MO.MOBE.Deploy</Name>     
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+
   </ItemGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DocumentationFile>.\bin\Debug\UFIDA.U9.Cust.ZX.BaiLiSV.Deploy.XML</DocumentationFile>

@@ -7,15 +7,22 @@
     using UFSoft.UBF.Util.Context;
     using UFSoft.UBF.Util.Log;
     using MyMVC;
-    using UFIDA.U9.Base.Organization;
-    using UFIDA.U9.CBO.SCM.Item;
     using UFSoft.UBF.PL;
+    
+    using UFIDA.U9.CBO.SCM.Item;
     using ISVItem = UFIDA.U9.ISV.Item;
     using UFIDA.U9.CBO.Pub.Controller;
     using UFIDA.U9.Base.UserRole;
     using UFIDA.U9.Base.UOM;
     using UFIDA.U9.Base.PropertyTypes;
     using UFIDA.U9.Base.FlexField.DescFlexField;
+    using UFIDA.U9.Base.Organization;
+    using UFIDA.U9.Base.FlexField.KeyFlexField;
+    using UFSoft.UBF.Util.DataAccess;
+    using System.Data;
+    using System.Data.SqlClient;
+    using UFSoft.UBF.Sys.Database;
+    using System.Transactions;
 
     /// <summary>
     /// CreateItemMasterSV partial 
@@ -91,6 +98,7 @@
             ISVItem.ItemMasterDTO dtoItemModule = null;
             try
             {
+                //查询模板料品
                 ISVItem.BatchQueryItemByDTOSRV srvQueryItemDTO = new ISVItem.BatchQueryItemByDTOSRV();
                 List<ISVItem.QueryItemDTO> lstQueryItem = new List<ISVItem.QueryItemDTO>();
                 ISVItem.QueryItemDTO itemQueryModuleDTO = new ISVItem.QueryItemDTO();
@@ -110,6 +118,10 @@
                 if (lstQueryItemModule != null && lstQueryItemModule.Count > 0)
                 {
                     dtoItemModule = lstQueryItemModule[0];
+                }
+                else
+                {
+                    throw new Exception(string.Format("没有找到模板料品{0}",beItemMaster.Code));
                 }
             }
             catch (Exception ex)
@@ -156,7 +168,9 @@
                     if (beItemExists == null)
                     {
                         #region 生成ItemMaster编码
-                        strbPLMLog.AppendLine(String.Format("<ItemMaster code=\"{0}\" />", item.ItemCode));//记录传入的料号
+                        //strbPLMLog.AppendLine(String.Format("<ItemMaster code=\"{0}\" />", item.ItemCode));//记录传入的料号
+                        string strNewItemCode = getNewCode(item.MainCategoryCode, beItemMaster);
+                        item.ItemCode = strNewItemCode;
                         #endregion
                         //只在新增时对单位进行检查。修改时可以不提供单位，沿用原单位。
                         UOM beUOM = UOM.FindByCode(item.UOMCode);
@@ -223,7 +237,7 @@
         /// </summary>
         /// <param name="_itemModule"></param>
         /// <returns></returns>
-        private ISVItem.ItemMasterDTO CreateItemMasterDTO(ISVItem.ItemMasterDTO _dtoItemModule, ItemMasterData _itemData, ContextInfo _cxtInfo)
+        private ISVItem.ItemMasterDTO CreateItemMasterDTO(ISVItem.ItemMasterDTO _dtoItemModule, ItemMasterCustData _itemData, ContextInfo _cxtInfo)
         {
             ISVItem.ItemMasterDTO dtoItemNew = new ISVItem.ItemMasterDTO();
             dtoItemNew.Org = new CommonArchiveDataDTO();//组织
@@ -231,7 +245,11 @@
             dtoItemNew.Org.ID = beOrg.ID;
             dtoItemNew.Org.Code = beOrg.Code;
             dtoItemNew.Org.Name = beOrg.Name;
-            dtoItemNew.Code = _itemData.ItemCode;//料号
+            if (!string.IsNullOrEmpty(_itemData.ItemCode))
+            {
+                dtoItemNew.Code = _itemData.ItemCode;//料号
+            }
+            
             dtoItemNew.SPECS = _itemData.Specs;//规格
             dtoItemNew.ItemFormAttribute = ItemTypeAttributeEnum.GetFromName(_itemData.ItemFormAttribute);//料品形态属性
             //if (ItemTypeAttributeEnum.GetFromName(_itemData.ItemFormAttribute) == ItemTypeAttributeEnum.PurchasePart)
@@ -351,7 +369,11 @@
             dtoItemNew.ItemBulk = _dtoItemModule.ItemBulk;//库存单位体积
             //dtoItemNew.ItemForm = _dtoItemModule.ItemForm;//料品形态
             dtoItemNew.ItemTradeMarkInfos = _dtoItemModule.ItemTradeMarkInfos;//料品厂牌信息
-            dtoItemNew.MainItemCategory = _dtoItemModule.MainItemCategory;//主分类
+
+            //dtoItemNew.MainItemCategory = _dtoItemModule.MainItemCategory;//主分类
+            dtoItemNew.MainItemCategory = new CommonArchiveDataDTO();
+            dtoItemNew.MainItemCategory.Code = _itemData.MainCategoryCode;
+
             dtoItemNew.MfgInfo = _dtoItemModule.MfgInfo;//料品生产相关信息
             //MRPPlanningType  计划方法  
             dtoItemNew.MrpInfo = _dtoItemModule.MrpInfo;//料品MRP相关信息
@@ -395,7 +417,7 @@
         /// </summary>
         /// <param name="_itemModule"></param>
         /// <returns></returns>
-        private ISVItem.ItemMasterDTO ModifyItemMasterDTO(ItemMaster _itemExists, ItemMasterData _itemData, ContextInfo _cxtInfo, bool _isNewVersion)
+        private ISVItem.ItemMasterDTO ModifyItemMasterDTO(ItemMaster _itemExists, ItemMasterCustData _itemData, ContextInfo _cxtInfo, bool _isNewVersion)
         {
             ISVItem.BatchQueryItemByDTOSRV srvQueryItemDTO = new ISVItem.BatchQueryItemByDTOSRV();
             List<ISVItem.QueryItemDTO> lstQueryDTO = new List<ISVItem.QueryItemDTO>();
@@ -476,7 +498,102 @@
             }
 
             return dtoItemModify;
-        }		
+        }
+
+        private string getNewCode(string _categoryCode,ItemMaster _itemModule)
+        {
+            string strCode = string.Empty;
+            ItemCategory beMainItemCategory = ItemCategory.Finder.Find("Code=@code",new OqlParam[1]{new OqlParam(_categoryCode)});
+            if (beMainItemCategory != null && beMainItemCategory.CategorySystem.IsMain)
+            {
+                List<long> lstFlowNos = LoadFlowNos(beMainItemCategory.Code, 1, 0L, _itemModule.KeyFlexFieldStru);
+                long lFlowNo = 1L;
+                if (lstFlowNos != null && lstFlowNos.Count>0)
+                {
+                    lFlowNo = lstFlowNos[0];
+                }
+                
+                strCode = string.Format("{0}{1}{2}", beMainItemCategory.Code, _itemModule.KeyFlexFieldStru.Separator, lFlowNo.ToString());
+            }
+            return strCode;
+        }
+
+        internal List<long> LoadFlowNos(string sequenceBy, int count, long UserDefineNumber,KeyFlexFieldStru fieldStru)
+        {
+            List<long> list = new List<long>();
+            string spName = "Base_KFFLoadFlowNew";
+            long iD = fieldStru.ID;
+            if (!FlexFieldFlow.Finder.IsExists("KeyFlexFieldStru=@KeyFlexFieldStru and Code=@SequenceBy", new OqlParam[] { new OqlParam(fieldStru.ID), new OqlParam(sequenceBy) }))
+            {
+                iD = KeyGenerator.NewValue();
+            }
+            DataParamList dataParams = new DataParamList();
+            dataParams.Add(DataParamFactory.CreateInput("SN", iD, DbType.Int64));
+            dataParams.Add(DataParamFactory.CreateInput("Struc", fieldStru.ID, DbType.Int64));
+            dataParams.Add(DataParamFactory.CreateInput("SequenceBy", sequenceBy, DbType.String));
+            dataParams.Add(DataParamFactory.CreateInput("Count", count, DbType.Int32));
+            dataParams.Add(DataParamFactory.CreateOutput("ErrorInfo", DbType.String));
+            dataParams.Add(DataParamFactory.CreateInput("UserFlow", UserDefineNumber, DbType.Int64));
+            return LoadFlowBySP(spName, dataParams, fieldStru, sequenceBy, count);
+        }
+
+        private static List<long> LoadFlowBySP(string spName, DataParamList dataParams, KeyFlexFieldStru struc, string sequenceBy, int count)
+        {
+            List<long> list = new List<long>();
+            DataSet set = null;
+            Transaction current = Transaction.Current;
+            try
+            {
+                TransactionOptions options = new TransactionOptions
+                {
+                    IsolationLevel = System.Transactions.IsolationLevel.ReadCommitted
+                };
+                Transaction.Current = new CommittableTransaction(options);
+                using (SqlConnection connection = new SqlConnection(DatabaseManager.ConnectionString))
+                {
+                    DataAccessor.RunSP(connection, spName, dataParams, out set);
+                    ((CommittableTransaction)Transaction.Current).Commit();
+                }
+            }
+            catch (Exception)
+            {
+                ((CommittableTransaction)Transaction.Current).Rollback();
+            }
+            finally
+            {
+                Transaction.Current = current;
+            }
+            if ((((set != null) && (set.Tables.Count != 0)) && (set.Tables[0].Rows.Count > 0)) && (set.Tables[0].Rows.Count == 1))
+            {
+                DataRow row = set.Tables[0].Rows[0];
+                long num = 0L;
+                long num2 = -1L;
+                if (!((row[0] == null) || (row[0] is DBNull)))
+                {
+                    num = Convert.ToInt64(row[0]);
+                }
+                if (!((row[1] == null) || (row[1] is DBNull)))
+                {
+                    num2 = Convert.ToInt64(row[1]);
+                }
+                if (num2 >= num)
+                {
+                    for (long i = num; i <= num2; i += 1L)
+                    {
+                        list.Add(i);
+                    }
+                }
+            }
+            if (list.Count != count)
+            {
+                throw new KFFFlowNoException(struc.Name, sequenceBy, count.ToString());
+            }
+            return list;
+        }
+
+ 
+
+
     }
 
     #endregion

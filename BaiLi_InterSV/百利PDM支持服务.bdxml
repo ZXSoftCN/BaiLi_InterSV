@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AppPackage id="2d942326-787e-472d-ba97-a7f673a4bde2" code="AppPackCode01" name="应用组装包" shortName="" displayName="应用组装包" description="" version="">
+<AppPackage id="5cebcafa-899b-4a2a-84c9-ddfdb9e3d180" code="AppPackCode01" name="应用组装包" shortName="" displayName="应用组装包" description="" version="">
     <Apps>
         <App id="3110" code="01" shortName="CBO" name="基础设置" uri="">
             <Pages />

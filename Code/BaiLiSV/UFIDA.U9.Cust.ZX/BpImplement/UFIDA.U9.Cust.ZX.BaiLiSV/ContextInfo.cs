@@ -23,6 +23,9 @@ namespace UFIDA.U9.Cust.ZX.BaiLiSV
         public string OrgCode { get; set; }
 
         [XmlAttribute]
+        public string SoDocTypeCode { get; set; }
+
+        [XmlAttribute]
         public string IssueOrgCodes { get; set; }
 
         //http://localhost/PortalV21/Services

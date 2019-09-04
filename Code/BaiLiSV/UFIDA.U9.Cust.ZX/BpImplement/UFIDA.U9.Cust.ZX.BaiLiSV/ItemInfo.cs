@@ -11,6 +11,6 @@ namespace UFIDA.U9.Cust.ZX.BaiLiSV
     public class ItemInfo
     {
         [XmlArrayItem("ItemMaster")]
-        public List<ItemMasterData> ItemMasters { get; set; }
+        public List<ItemMasterCustData> ItemMasters { get; set; }
     }
 }

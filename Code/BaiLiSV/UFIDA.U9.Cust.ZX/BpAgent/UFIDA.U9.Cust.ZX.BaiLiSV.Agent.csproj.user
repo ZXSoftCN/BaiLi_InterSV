@@ -10,7 +10,4 @@
     <FallbackCulture>zh-CN</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
-  <PropertyGroup>
-    <ReferencePath>E:\yonyou\U9V30\Portal\bin\;E:\yonyou\U9V30\Portal\ApplicationServer\Libs\</ReferencePath>
-  </PropertyGroup>
 </Project>
